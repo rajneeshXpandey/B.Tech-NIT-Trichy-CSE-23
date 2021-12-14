@@ -1,0 +1,228 @@
+<style>
+  .step-num {
+    color: red;
+    font-weight: bold;
+    white-space: pre;
+  }
+  .step-total {
+    color:red;
+  }
+  .answer .question{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  .step-header {
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    background-color: rgb(156, 226, 223);
+    position: relative;
+    cursor: pointer;
+  }
+  .x {
+    background-color: lightgrey;
+    border: 10px solid rgb(185, 6, 6);
+  }
+  .y {
+    background-color: lightyellow;
+    border: 10px solid green;
+  }
+  .z {
+    background-color:lightyellow;
+    border: 10px solid yellow;
+  }
+  .tele {
+    background-color:rgb(193, 227, 238);
+    border: 5px dashed red;
+  }
+  .up-count{
+    font-size:30px
+  }
+  .down-count{
+    font-size:30px
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  .center {
+    text-align: center;
+  }        
+  .iraq {
+    margin-top: -25px;
+    margin-bottom: -10px;
+  }      
+</style>
+
+<link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" /> 
+
+
+<h1>
+  <div class="tele">
+    <div class="center">
+      <p>This Solution Was Obtained By:</p>
+      <div class="iraq">
+            
+        <svg viewBox="0 0 160 160" width="160" height="160">
+          <defs>
+            <clipPath id="circleView">
+                <circle cx="80" cy="80" r="50"/>            
+            </clipPath>
+        
+          </defs>
+          <image width="170" height="158" xlink:href="https://media.cheggcdn.com/media/fbc/fbc6fa59-9eab-42ca-ab19-3d46198f93a9/phppxMHtH.png" clip-path="url(#circleView)" />
+        
+          <g transform=" matrix(0.55, -0.55, 0.55, 0.55, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="green">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.5s" repeatCount="indefinite" />
+            </path>
+          </g>
+          <g transform=" matrix(0.8, -0.5, 0.6, 0.6, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.7s" repeatCount="indefinite" />
+            </path>
+          </g>
+          <g transform=" matrix(0.7, -0.7, 0.7, 0.7, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="red">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+            </path>
+          </g>
+        
+        </svg>
+        </div>
+      <mark>Eng Murtadha Bot</mark>
+      <p>
+        <button class="button" onclick="location.href='https://t.me/E_oil'" type="button">
+          For More Solution</button>
+        <!-- <a href= class="button"></a> -->
+      </p>
+    </div>
+  </div>
+</h1>
+
+
+<h1>
+    <p>
+        <div> <mark>.  ( : Question : )  .</mark></div>
+    </p>
+</h1>
+<div class="x">
+<a class="up-count">Introduction to the Theory of Computation ,Edition 3 ,Chapter 1 , Problem 4E</a><div class="question">  <p>Each of the following languages is the intersection of two simpler languages. In each part, construct DFAs for the simpler languages, then combine them using the construction discussed in footnote 3 (page 46) to give the state diagram of a DFA for the language given. In all parts, &sum; = {a, b}.</p>  <p>    <b>a. </b>{w| w has at least three a&rsquo;s and at least two b&rsquo;s}</p>  <p>A<b>b. </b>{w| w has exactly two a&rsquo;s and at least two b&rsquo;s}</p>  <p>    <b>c. </b>{w| w has an even number of a&rsquo;s and one or two b&rsquo;s}</p>  <p>A<b>d. </b>{w| w has an even number of a&rsquo;s and each a is followed by at least one b}</p>  <p>    <b>e. </b>{w| w starts with an a and has at most one b}</p>  <p>    <b>f. </b>{w| w has an odd number of a&rsquo;s and ends with a b}</p>  <p>    <b>g. </b>{w| w has even length and an odd number of a&rsquo;s}</p>  </div>
+</div>
+<h1>
+    <p>
+        <div> <mark>.  ( : Solution : )  .</mark></div>
+    </p>
+</h1>
+<div class="y">
+
+
+            <h4 class="step-header"><span class="step-num">Step 1 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>a.</p> <p>Consider the Language <img src="https://media.cheggcdn.com/study/ff4/ff43dec2-9d8c-4159-8291-1c177f668973/2287-1-4E-i1.png" />. The language <i>L</i> is the intersection of two simpler languages <img src="https://media.cheggcdn.com/study/62d/62df165c-07d3-4d74-83e7-e0c7468e32a4/2287-1-4E-i2.png" /> and<img src="https://media.cheggcdn.com/study/482/482e955c-7759-41fa-94c9-3699f292e10e/2287-1-4E-i3.png" />.</p> <p>Now <img src="https://media.cheggcdn.com/study/dbb/dbbbe8d0-731f-4c15-ba9d-b146467a63c8/2287-1-4E-i4.png" />and <img src="https://media.cheggcdn.com/study/927/927f35c7-869a-46d5-89d0-0728c2b1a71a/2287-1-4E-i5.png" />. Let <i>M</i> be the DFA (Deterministic Finite automata) that recognizes <i>L.</i> Let <img src="https://media.cheggcdn.com/study/7f6/7f69c184-5cb1-4fcd-9417-9da67fa1e8c0/2287-1-4E-i6.png" /> and <img src="https://media.cheggcdn.com/study/443/443fccff-20d1-4077-8d40-834fd26d3d8b/2287-1-4E-i7.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/b29/b2955a34-c191-4b42-959c-bd76168a1316/2287-1-4E-i8.png" /> and <img src="https://media.cheggcdn.com/study/ce8/ce8a284f-fd16-4e1e-8548-a1e462dd8dfc/2287-1-4E-i9.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/871/871b3ee3-c2b4-41a4-a12e-5e7aefcd4122/2287-1-4E-i10.png" /> that recognizes <img src="https://media.cheggcdn.com/study/cff/cff2bbc3-6411-490d-9845-a0f60d648fda/2287-1-4E-i11.png" />is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/633/63355415-ca3b-4d1d-893e-b69caba5189a/2287-1-4E-i12.png" alt="Picture 1" /> </p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/ab8/ab841500-dc41-468c-a094-55a8f4882351/2287-1-4E-i13.png" /> that recognizes <img src="https://media.cheggcdn.com/study/0c7/0c767658-8f35-4133-b035-f7c049c35b6f/2287-1-4E-i14.png" />is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/3d7/3d73ee89-05b7-4357-bb39-fe3430e79d0e/2287-1-4E-i15.png" alt="2287-1-4E_2" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 2 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/dcb/dcb64840-201e-45dd-9ac1-539ff5bae1b7/2287-1-4E-i16.png" /> and <img src="https://media.cheggcdn.com/study/537/53715a6d-c13b-4a7d-9170-c510c641c3e3/2287-1-4E-i17.png" /> accept it. Because, the language <i>L</i> is the intersection of the languages<img src="https://media.cheggcdn.com/study/d9e/d9ee1790-cb85-46da-8c48-d6fbff5c6040/2287-1-4E-i18.png" /> and<img src="https://media.cheggcdn.com/study/67d/67d096d7-6cd5-4d65-815a-ce23412ef1c5/2287-1-4E-i19.png" />. Therefore, the state diagram of <i>M</i> that recognizes the Language<img src="https://media.cheggcdn.com/study/4ad/4adf4646-3993-47fa-a689-4a93092f145d/2287-1-4E-i20.png" />is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/e0a/e0a742eb-f197-4cbd-b9f1-f4155b45670e/2287-1-4E-i21.png" alt="Picture 26" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 3 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>b.</p> <p>Consider the language <img src="https://media.cheggcdn.com/study/177/1770df2c-e873-4940-8c9d-4c942977614a/2287-1-4E-i22.png" />{<img src="https://media.cheggcdn.com/study/e7e/e7e8826c-76f6-46eb-8a5b-b0d95a28fae2/2287-1-4E-i23.png" /> has at exactly two <i>a’</i>s and at least two <i>b</i>’s}. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/c05/c059ac7d-f9b2-4441-8553-93a28c0f4152/2287-1-4E-i24.png" /> and <img src="https://media.cheggcdn.com/study/682/682837d9-8002-46fa-91b9-118908dbd747/2287-1-4E-i25.png" />.</p> <p>Now <img src="https://media.cheggcdn.com/study/3b1/3b1da5c6-a7c8-40ad-916d-5ca345a53dd6/2287-1-4E-i26.png" />{<img src="https://media.cheggcdn.com/study/515/515317c0-29ad-4ff9-869b-475c3540b66e/2287-1-4E-i27.png" /> has exactly two <i>a</i>’s} and <img src="https://media.cheggcdn.com/study/fed/fedff390-b42c-464f-98a6-514aac5033a5/2287-1-4E-i28.png" /> {<img src="https://media.cheggcdn.com/study/e5b/e5b79586-5b62-485b-938d-958853a82e20/2287-1-4E-i29.png" /> has at least two <i>b</i>’s}. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/ce9/ce94e7ba-df2b-4284-9733-d6af907bba69/2287-1-4E-i30.png" /> and <img src="https://media.cheggcdn.com/study/b18/b18a4a87-cfdc-4390-b1ac-98a51d9c221c/2287-1-4E-i31.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/c99/c99037ad-98dc-4810-b02d-d576306067e9/2287-1-4E-i32.png" /> and <img src="https://media.cheggcdn.com/study/96f/96f4ee11-ba82-485d-8092-470d3deb2bb1/2287-1-4E-i33.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/12d/12d08aa4-6ebd-4042-92b4-cc2d0cd13677/2287-1-4E-i34.png" /> that recognizes <img src="https://media.cheggcdn.com/study/c00/c0050559-dda2-49cd-b966-5ca1b97c53af/2287-1-4E-i35.png" /> is as follows</p> <p> <img src="https://media.cheggcdn.com/study/a4b/a4bc01ca-c83d-479c-b992-ea5ef17be7e3/2287-1-4E-i36.png" alt="Picture 41" /> </p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/0d0/0d009994-03e3-4bb5-b434-124a99290d8c/2287-1-4E-i37.png" /> that recognizes <img src="https://media.cheggcdn.com/study/a4b/a4bfb5b4-1983-430c-a1bd-970b41180dc4/2287-1-4E-i38.png" /> is as follows</p> <p> <img src="https://media.cheggcdn.com/study/e92/e926038d-a359-4e54-9eb9-98cbef4bbfe4/2287-1-4E-i39.png" alt="2287-1-4E_2" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 4 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/535/535cb092-be7f-4041-bb97-5622041fd5e0/2287-1-4E-i40.png" /> and <img src="https://media.cheggcdn.com/study/70c/70c4cb61-6644-4efd-b2b0-446f571ead96/2287-1-4E-i41.png" /> accept it. Because, the language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/0f6/0f658f13-7e4a-441f-8f0d-a73b246747f9/2287-1-4E-i42.png" /> and <img src="https://media.cheggcdn.com/study/3d5/3d5c7874-d15c-4a4b-9d4f-982669e9863c/2287-1-4E-i43.png" />. The state diagram of <i>M</i> that recognizes <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/0d0/0d09b3d7-cfa6-4b24-b789-a9533e582b9a/2287-1-4E-i44.png" alt="Picture 3" /> </p> <p>Combine some states to get more simplified form as follows:</p> <p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 5 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <img src="https://media.cheggcdn.com/study/e1f/e1fe16b0-4867-4271-9584-3dc169766bb6/2287-1-4E-i45.png" alt="Picture 50" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 6 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>c.</p> <p>Consider the language<img src="https://media.cheggcdn.com/study/dbe/dbea0e24-0101-4841-8762-8a6a72ad4541/2287-1-4E-i46.png" /> {<img src="https://media.cheggcdn.com/study/cb0/cb066588-90ac-4907-a675-2b52c7e79c3a/2287-1-4E-i47.png" /> has even number of <i>a</i>’s and one or two <i>b</i>’s}. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/364/36489c50-9786-4204-9301-0ae029ac6040/2287-1-4E-i48.png" /> and <img src="https://media.cheggcdn.com/study/bdc/bdc6ab2f-0885-4038-8828-50961efca8af/2287-1-4E-i49.png" />.</p> <p>Now <img src="https://media.cheggcdn.com/study/7b7/7b7c2f7b-5de3-483a-9661-41aa02f34b4c/2287-1-4E-i50.png" />{<img src="https://media.cheggcdn.com/study/235/235e902f-a625-4b2b-82fd-bc4abe35468c/2287-1-4E-i51.png" /> has even number of <i>a</i>’s } and <img src="https://media.cheggcdn.com/study/575/57557b22-cf6c-4919-ad7a-ce890dfb9cec/2287-1-4E-i52.png" /> {<img src="https://media.cheggcdn.com/study/b5c/b5cc2c15-ecec-45ce-892f-afcfdb2b8744/2287-1-4E-i53.png" /> has one or two <i>b</i>’s}. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/173/173a4bb2-f8d5-4f94-ad01-52178e44692b/2287-1-4E-i54.png" /> and <img src="https://media.cheggcdn.com/study/e29/e294b5e1-81da-4022-80a9-93319fdd2416/2287-1-4E-i55.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/9b7/9b7603bc-0171-46bf-b4f5-2c42cd4ddd36/2287-1-4E-i56.png" /> and <img src="https://media.cheggcdn.com/study/de1/de130162-6c3d-4c10-ab4a-a92165afef11/2287-1-4E-i57.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/5ad/5ad5cd1a-5751-407a-8756-8580e5bb0c2a/2287-1-4E-i58.png" />that recognizes <img src="https://media.cheggcdn.com/study/5bf/5bfd19ae-6377-4087-9d98-06a11ce85c7d/2287-1-4E-i59.png" /> is as follows </p> <p> <img src="https://media.cheggcdn.com/study/b14/b143aef6-248f-4740-be58-bdec336ff61c/2287-1-4E-i60.png" alt="Picture 1" /> </p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/f64/f646a62c-5ef4-4b9f-8126-ebe56302293a/2287-1-4E-i61.png" /> that recognizes <img src="https://media.cheggcdn.com/study/9f2/9f2d9edf-2fc8-426d-9475-2b08c196cb44/2287-1-4E-i62.png" /> is as follows </p> <p> <img src="https://media.cheggcdn.com/study/e5e/e5e1728e-a146-4d3b-a652-6d524318b678/2287-1-4E-i63.png" alt="2287-1-4E_9" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 7 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/57f/57f591fc-5192-4270-b89f-316aa94f810b/2287-1-4E-i64.png" /> and <img src="https://media.cheggcdn.com/study/0c1/0c1bc761-c47b-4329-be72-da1e86fe8d9f/2287-1-4E-i65.png" /> accept it. Because language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/cde/cdef5626-3351-4cc2-a52d-dd8ffa8d7f25/2287-1-4E-i66.png" /> and <img src="https://media.cheggcdn.com/study/353/353f2f78-7531-4dc8-9a4e-debd6e0cc66a/2287-1-4E-i67.png" />.</p> <p>The state diagram of <i>M</i> which recognizes the language <i>L</i> is as follows</p> <p> <img src="https://media.cheggcdn.com/study/bd4/bd4f0909-5990-4cae-8a63-ee112861f034/2287-1-4E-i68.png" alt="2287-1-4E_10" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 8 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>d. </p> <p>Consider the language <img src="https://media.cheggcdn.com/study/b95/b9510d4f-e62b-4225-b4b8-0235b50cde9c/2287-1-4E-i69.png" />{<img src="https://media.cheggcdn.com/study/1d2/1d25675e-7083-42dc-b588-e48b1bfe44ff/2287-1-4E-i70.png" /> has an even number of <i>a</i>’s and each a is a followed by at least on <i>b</i>}. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/89a/89a53d71-c9ce-4895-92fb-ec3c2135ae90/2287-1-4E-i71.png" /> and <img src="https://media.cheggcdn.com/study/de7/de7aeb0b-e18c-4a9c-bddf-fc0fdf40f96c/2287-1-4E-i72.png" />.</p> <p>Now <i>L</i><sub>1</sub>={<img src="https://media.cheggcdn.com/study/e52/e5248ad9-b907-471d-a38e-3142e0682997/2287-1-4E-i73.png" /> has an even number of <i>a</i>’s } and <i>L</i><sub>2</sub>={<img src="https://media.cheggcdn.com/study/47d/47dd5d81-7fc5-4516-89be-f798e3ee9a14/2287-1-4E-i74.png" /> has each a is a followed by at least on <i>b</i> }. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/f77/f776d8ee-405c-428f-b46e-a5a773890888/2287-1-4E-i75.png" /> and <img src="https://media.cheggcdn.com/study/769/769e3f95-79f1-4cb3-b46e-cc3a53b036d5/2287-1-4E-i76.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/678/67890d56-48bc-468c-a748-c939327017b2/2287-1-4E-i77.png" /> and <img src="https://media.cheggcdn.com/study/0da/0dadf783-9371-46b6-9de7-5ef15dada5aa/2287-1-4E-i78.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/016/016550dd-bcdc-4929-8e5c-3009791702fb/2287-1-4E-i79.png" /> that recognizes <img src="https://media.cheggcdn.com/study/055/0550b1c0-00ad-4ec7-9ec4-f2fa0c4b4384/2287-1-4E-i80.png" /> is as follows where <img src="https://media.cheggcdn.com/study/21e/21eedbd7-db21-48ce-8289-b9c9879d321b/2287-1-4E-i81.png" />{<img src="https://media.cheggcdn.com/study/2e5/2e53053d-bb07-4a69-94fe-a0f765816d74/2287-1-4E-i82.png" /> has an even number of <i>a</i>’s}.</p> <p> <img src="https://media.cheggcdn.com/study/fb4/fb42a978-c4c7-43c7-a258-a690c5bbb8a8/2287-1-4E-i83.png" alt="2287-1-4E_11" /> </p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/1b0/1b08b913-8b1d-4518-8761-6f4f818f9c8f/2287-1-4E-i84.png" /> that recognizes <img src="https://media.cheggcdn.com/study/d4b/d4b956f1-4603-4ca6-a24a-4f49d2354293/2287-1-4E-i85.png" /> is as follows where <img src="https://media.cheggcdn.com/study/775/7751221f-b047-40b7-957b-08f49c330cbe/2287-1-4E-i86.png" />{<img src="https://media.cheggcdn.com/study/925/925fbbc2-ce70-45a2-8e8e-b4f7c0c76c60/2287-1-4E-i87.png" /> has each <i>a</i> is followed by at least one <i>b</i>}.</p> <p> <img src="https://media.cheggcdn.com/study/4d6/4d6b45d0-5496-40cf-8616-9c70b76c986e/2287-1-4E-i88.png" alt="Picture 4" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 9 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/bdb/bdb68dab-a5a4-4e9a-a8cc-ad405d790b5d/2287-1-4E-i89.png" /> and <img src="https://media.cheggcdn.com/study/23f/23f3b619-029d-4ef4-986c-e9a3e18c41ae/2287-1-4E-i90.png" /> accept it. Because, the language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/1ca/1ca02454-5f6d-48ab-be6e-da259c529b31/2287-1-4E-i91.png" /> and <img src="https://media.cheggcdn.com/study/3ea/3eaa43c3-dbb8-4499-a46f-2713b6ec46da/2287-1-4E-i92.png" />.</p> <p>The state diagram of <i>M</i> that recognizes <i>L</i> is as follows:</p> <p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 10 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <img src="https://media.cheggcdn.com/study/716/71632b49-5eb7-4d46-abc9-241b8ae73c8c/2287-1-4E-i93.png" alt="Picture 5" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 11 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>Combine some states to get more simplified form as follows:</p> <p> <img src="https://media.cheggcdn.com/study/b1a/b1ac4655-bd5b-4235-980a-db877e2cfb69/2287-1-4E-i94.png" alt="Picture 99" /></p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 12 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>e.</p> <p>Consider the language <img src="https://media.cheggcdn.com/study/3f5/3f5ad815-5ca8-4571-b8f6-01e225a04e07/2287-1-4E-i95.png" />{<img src="https://media.cheggcdn.com/study/d26/d26e364c-e492-475d-82d1-a0ac75ee6d4e/2287-1-4E-i96.png" /> Start with an<i> a</i> and has at most one <i>b</i>}. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/7c9/7c99f61c-e1a1-47e3-ba38-70996aac92e8/2287-1-4E-i97.png" /> and <img src="https://media.cheggcdn.com/study/e57/e573742b-d537-4497-8e4b-4034383d2eb1/2287-1-4E-i98.png" />. Now <img src="https://media.cheggcdn.com/study/e42/e421dd99-ae41-4afa-8435-b5e1000dad0e/2287-1-4E-i99.png" />{<img src="https://media.cheggcdn.com/study/5e3/5e36bda6-d4f1-4e0c-a387-71a9b9f1d4df/2287-1-4E-i100.png" /> starts with <i>a</i>}and <img src="https://media.cheggcdn.com/study/d3a/d3ac2be2-3428-4a99-ad3e-090f07b6e2eb/2287-1-4E-i101.png" />{<img src="https://media.cheggcdn.com/study/8a6/8a6c9060-a240-405f-9d58-89277c5d0d44/2287-1-4E-i102.png" /> has at most one <i>b</i>}. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/fff/fff101c5-53a5-4bda-8d07-9d034a56fddb/2287-1-4E-i103.png" /> and <img src="https://media.cheggcdn.com/study/ff2/ff2b0d13-37d6-47aa-b8ce-410d6b29b42c/2287-1-4E-i104.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/bdc/bdc51d2f-ae1a-4547-b0f0-30ae44eab991/2287-1-4E-i105.png" /> and <img src="https://media.cheggcdn.com/study/4e7/4e775a75-6163-4936-bd23-049e4408a5a5/2287-1-4E-i106.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/932/93203e41-bcc8-4770-8630-2fae0d482de7/2287-1-4E-i107.png" /> that recognizes <img src="https://media.cheggcdn.com/study/ff0/ff0be2ae-7d38-44f6-a90d-bdf183a64c30/2287-1-4E-i108.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/682/682c2081-5409-4468-a555-8760ce4b706f/2287-1-4E-i109.png" alt="Picture 12" /> </p> <p> </p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/84b/84bcb75b-1bd8-4e6b-9e3a-11616ce68eb7/2287-1-4E-i110.png" /> that recognizes <img src="https://media.cheggcdn.com/study/7f1/7f195961-3051-45d1-83d9-656db57acdf1/2287-1-4E-i111.png" /> is as follows.</p> <p> <img src="https://media.cheggcdn.com/study/939/9397560b-31c5-442a-81eb-d173dc0a3592/2287-1-4E-i112.png" alt="2287-1-4E_16" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 13 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/1ef/1ef17a12-bbef-4efc-b711-a00c5b4f09ca/2287-1-4E-i113.png" /> and <img src="https://media.cheggcdn.com/study/910/910e6e18-4ca9-41c7-bf50-3a47b5879cc0/2287-1-4E-i114.png" /> accept it. Because, the language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/424/424ca7bb-52e0-4c6d-833f-4938d6a9a954/2287-1-4E-i115.png" /> and <img src="https://media.cheggcdn.com/study/a9e/a9e4eced-41bf-4a3c-b909-97458de43bd8/2287-1-4E-i116.png" />. The state diagram of <i>M</i> that recognizes <i>L</i> is as follows.</p> <p> <img src="https://media.cheggcdn.com/study/be1/be1008c4-e03f-4782-b113-cbdce2e59427/2287-1-4E-i117.png" alt="2287-1-4E_17" /> </p> <p>Combine some states to get more simplified form as follows:</p> <p> <img src="https://media.cheggcdn.com/study/a4b/a4b0ec1d-189b-4969-9c47-a9fa2bfb61d9/2287-1-4E-i118.png" alt="2287-1-4E_18" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 14 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>f. </p> <p>Consider the language<img src="https://media.cheggcdn.com/study/ef5/ef56bc8a-4ae2-4f3c-9cb9-b8fc49ab7363/2287-1-4E-i119.png" /> {<img src="https://media.cheggcdn.com/study/d59/d599d4ba-f648-474f-9625-4806a8025178/2287-1-4E-i120.png" /> has an odd number of <i>a</i>’s and ends with <i>b</i>}. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/6b8/6b8ecdc5-ae1c-42cc-968d-b6c50aadea03/2287-1-4E-i121.png" /> and <img src="https://media.cheggcdn.com/study/eee/eee3ae8a-f36b-4ba7-9f0e-b288e0f7e680/2287-1-4E-i122.png" />. Now <img src="https://media.cheggcdn.com/study/254/2547f349-807e-4981-82f8-5e7e64cdf1a3/2287-1-4E-i123.png" />{<img src="https://media.cheggcdn.com/study/226/22672cf9-1249-4994-91fb-fe6f07defeb4/2287-1-4E-i124.png" /> has an odd </div>
+
+            <h4 class="step-header"><span class="step-num">Step 15 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer">number of <i>a</i>’s} and<img src="https://media.cheggcdn.com/study/48b/48b820c4-650a-4bce-8410-c213a17e11c2/2287-1-4E-i125.png" />{<img src="https://media.cheggcdn.com/study/81d/81dc97d6-2586-44b0-9ba5-e7f7a1adb5c4/2287-1-4E-i126.png" /> ends with a <i>b</i>}. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/59c/59cbc382-4ab4-42f0-92e6-1e4baa943c1f/2287-1-4E-i127.png" /> and <img src="https://media.cheggcdn.com/study/aa8/aa8f881f-1f0c-4777-b1ba-edcb6c27aa22/2287-1-4E-i128.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/d4f/d4fe42b6-fba4-49f4-9f24-02bffd1a75df/2287-1-4E-i129.png" /> and <img src="https://media.cheggcdn.com/study/4a8/4a8059f1-3747-40a2-96b9-4efd07557643/2287-1-4E-i130.png" />.</p> <p>The state diagram of <img src="https://media.cheggcdn.com/study/aed/aedf30ed-9d61-42ac-bca0-390f5642067d/2287-1-4E-i131.png" /> that recognizes <img src="https://media.cheggcdn.com/study/fb4/fb41f14c-dba5-4fec-bc34-9893dbd166de/2287-1-4E-i132.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/9cd/9cd7b66d-a44f-4478-89c1-adf4badf7124/2287-1-4E-i133.png" alt="2287-1-4E_19" /> </p> <p>The language <img src="https://media.cheggcdn.com/study/5f4/5f418a42-5aa4-4b3c-94f7-a4c8ce7574f3/2287-1-4E-i134.png" />accepts the strings that ends with a symbol <i>b</i>. The state diagram of <img src="https://media.cheggcdn.com/study/3dd/3dda890c-bf49-4169-9d18-9a796875d910/2287-1-4E-i135.png" /> that recognizes <img src="https://media.cheggcdn.com/study/133/13354235-77b1-4fd1-b1fa-7dd8dcb79e4a/2287-1-4E-i136.png" />is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/2fa/2faa90f7-637c-41bd-92df-949831aae5fb/2287-1-4E-i137.png" alt="Picture 7" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 16 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/ba1/ba12099e-82a6-4c77-a529-dcf0021a1354/2287-1-4E-i138.png" /> and <img src="https://media.cheggcdn.com/study/ea1/ea122688-9553-4de4-bbe0-bf4b185229ab/2287-1-4E-i139.png" /> accept it. Because, the language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/a6d/a6d6c8d9-0f41-43f0-a048-5aa44239411e/2287-1-4E-i140.png" /> and <img src="https://media.cheggcdn.com/study/c86/c86e9365-8e63-4876-8353-7d733b57e9af/2287-1-4E-i141.png" />.</p> <p>The state diagram of <i>M</i> that recognizes <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/d70/d705686f-564f-4548-aa46-8b444184afad/2287-1-4E-i142.png" alt="Picture 11" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 17 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>g.</p> <p>Consider the language <img src="https://media.cheggcdn.com/study/150/150569f6-7b74-4210-9e6c-eccbcdb42a31/2287-1-4E-i143.png" />{<img src="https://media.cheggcdn.com/study/c9c/c9c55f81-6bae-4faa-b4f5-b35f1e9cfe4e/2287-1-4E-i144.png" /> has even length and an odd number of <i>a</i>’s }. The language <i>L</i> is the intersection of two simpler languages say <img src="https://media.cheggcdn.com/study/c03/c0303322-62b3-40a6-ab28-da6b1a148249/2287-1-4E-i145.png" /> and <img src="https://media.cheggcdn.com/study/1d1/1d1d28bc-aa82-4bdd-8d43-3579decb6101/2287-1-4E-i146.png" />. Now <img src="https://media.cheggcdn.com/study/e49/e495526c-d4f3-453e-b5d0-fffefc81c791/2287-1-4E-i147.png" />{<img src="https://media.cheggcdn.com/study/39b/39b52bd8-f205-4569-8bd2-920f5e3548b4/2287-1-4E-i148.png" /> has even length } and <img src="https://media.cheggcdn.com/study/a81/a819b12d-b099-4513-a4b1-792b68aa8fa7/2287-1-4E-i149.png" /> {<img src="https://media.cheggcdn.com/study/4e8/4e8204d0-f980-46aa-a384-c2089e669d70/2287-1-4E-i150.png" /> has odd number of <i>a</i>’s }. Let <i>M</i> be the DFA(Deterministic Finite automata) that recognizes <i>L</i> and <img src="https://media.cheggcdn.com/study/ce1/ce1fa024-c411-4dab-993d-d0a79a497385/2287-1-4E-i151.png" /> and <img src="https://media.cheggcdn.com/study/58d/58d31194-5b94-41e2-9aa5-e0ca41966124/2287-1-4E-i152.png" /> be the DFAs that recognizes <img src="https://media.cheggcdn.com/study/dcb/dcbc3b3f-add2-4187-8f6b-71b70ed212f1/2287-1-4E-i153.png" /> and <img src="https://media.cheggcdn.com/study/763/763b8b29-e682-4ce8-84e1-b1ae79aea3fc/2287-1-4E-i154.png" />.</p> <p>State diagram of <img src="https://media.cheggcdn.com/study/608/6082d131-c34d-49a5-9753-3d8cbfe6f858/2287-1-4E-i155.png" /> that recognizes <img src="https://media.cheggcdn.com/study/6d4/6d49adf2-7767-4ff3-8e7a-7d9e04dce388/2287-1-4E-i156.png" /> is as follows </p> <p> <img src="https://media.cheggcdn.com/study/a53/a5399cb6-cb9e-498b-b3af-731f474fb9e1/2287-1-4E-i157.png" alt="Picture 161" /> </p> <p>State diagram of <img src="https://media.cheggcdn.com/study/7f8/7f82543a-1fb2-463e-adcf-dd9b5a9b6495/2287-1-4E-i158.png" /> that recognizes <img src="https://media.cheggcdn.com/study/30c/30c51f23-92f5-47fb-95e0-30e91a24ef6e/2287-1-4E-i159.png" /> is as follows </p> <p> <img src="https://media.cheggcdn.com/study/da8/da8e3dfd-a9fc-4b15-8cd0-20d2dd6689d3/2287-1-4E-i160.png" alt="2287-1-4E_23" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 18 </span><span class="step-total">of 18</span></h4>
+            
+<div class="answer"> <p>The machine <i>M</i> will accept the input if and only if both <img src="https://media.cheggcdn.com/study/7cc/7cce39ee-a4d3-4a68-aac0-1dbaa852470b/2287-1-4E-i161.png" /> and <img src="https://media.cheggcdn.com/study/030/0305f1aa-7d2a-47c6-9520-2d3508f911ae/2287-1-4E-i162.png" /> accept it. Because, the language <i>L</i> is the intersection of <img src="https://media.cheggcdn.com/study/649/649ab2b5-5a3f-427e-a9f7-e5399565825d/2287-1-4E-i163.png" /> and <img src="https://media.cheggcdn.com/study/19b/19b0b9e5-9c71-4ce9-90c6-93b3191b9bcd/2287-1-4E-i164.png" />.</p> <p>The state diagram of <i>M</i> that recognize <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/56f/56f0fd97-01d6-4350-b0fc-5af459b4a622/2287-1-4E-i165.png" alt="2287-1-4E_24" /> </p></div>
+</div>
+<h1>
+  <p>
+      <div> <mark>.  ( : Likes + Dislikes : )  .</mark></div>
+  </p>
+</h1>
+<div class="z">
+  <div id="eggshell-5" class="C-Eggshell-homeworkhelp-thumbrating">
+    <div class="thumb-rating">
+      <button class="positive-rating rating-block" aria-label="Sweet! Glad to be of help!" tabindex="0" aria-describedby="eggshell-6">
+        <div class="thumb-button thumbs-up" aria-label="more information" tabindex="0" aria-describedby="eggshell-13">
+          <img class="thumbs-up-active hidden" src="https://c.cheggcdn.com/assets/icons/thumbs/icn-thumbsup-green.svg" width="50px" height="50px" alt="Thumbs up active">
+        </div>
+        <div class="up-count" aria-label="more information" tabindex="0" aria-describedby="eggshell-42">46</div>
+      </button>
+      <button class="negative-rating rating-block" aria-label="Sorry! Sometimes we make mistakes. Let us know so we can fix it." tabindex="0" aria-describedby="eggshell-7">
+        <div class="thumb-button thumbs-down" aria-label="more information" tabindex="0" aria-describedby="eggshell-13">
+          <img class="thumbs-down-active hidden" src="https://c.cheggcdn.com/assets/icons/thumbs/icn-thumbsdown-red.svg" width="50px" height="50px" alt="Thumbs down active">
+        </div>
+        <div class="down-count" aria-label="more information" tabindex="0" aria-describedby="eggshell-42">0</div>
+      </button>
+    </div>
+  </div>
+</div>

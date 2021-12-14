@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bookstore">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="author" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="category" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="isbn" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="publisher" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="edition" minOccurs="1" maxOccurs="1" />
+                <xs:element ref="price" minOccurs="1" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="title" type="xs:string" />
+    <xs:element name="author" type="xs:string" />
+    <xs:element name="category" type="xs:string" />
+    <xs:element name="isbn" type="xs:string" />
+    <xs:element name="publisher" type="xs:string" />
+    <xs:element name="edition" type="xs:string" />
+    <xs:element name="price" type="xs:string" />
+</xs:schema> 

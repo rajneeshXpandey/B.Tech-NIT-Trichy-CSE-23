@@ -1,0 +1,6 @@
+Open three terminals, run server, client1 and client2 in the same order.
+Make sure to run server first and client2 only after client1 has completed its function.
+
+./server (terminal 1)
+./client1 (terminal 2) : send data from client1
+./client2 (terminal 3)

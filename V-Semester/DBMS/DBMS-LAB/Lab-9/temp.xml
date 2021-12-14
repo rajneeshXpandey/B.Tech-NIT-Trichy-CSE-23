@@ -1,0 +1,8 @@
+<textbooks>
+    { let $prices := doc("bookstore.xml")// book[category="textbook"]/price let $max := max($prices)
+     return
+      <max-price-textbook price="{$max}">
+         {for $book in doc("bookstore.xml")// book where $book/price = $max return $book/title}
+      </max-price-textbook>
+    }
+</textbooks>

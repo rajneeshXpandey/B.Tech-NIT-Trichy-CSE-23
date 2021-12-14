@@ -1,0 +1,37 @@
+bookstore {
+  color: orange;
+}
+book {
+  color: Red;
+}
+title {
+  color: blue;
+  font-weight: bold;
+  margin-left: 10pt;
+  display: block;
+}
+author {
+  color: red;
+  font-weight: bold;
+  margin-left: 10pt;
+}
+category {
+  color:grey;
+  font-weight: bold;
+  margin-left: 10pt;
+}
+isbn {
+  color: green;
+  font-weight: bold;
+  margin-left: 10pt;
+}
+edition {
+  color: red;
+  font-weight: bold;
+  margin-left: 10pt;
+}
+publisher {
+  color: green;
+  font-weight: bold;
+  margin-left: 10pt;
+}

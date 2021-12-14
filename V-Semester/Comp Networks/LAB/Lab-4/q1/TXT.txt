@@ -1,0 +1,2 @@
+ns q1.tcl
+awk -f packetInfo.awk analysis.tr

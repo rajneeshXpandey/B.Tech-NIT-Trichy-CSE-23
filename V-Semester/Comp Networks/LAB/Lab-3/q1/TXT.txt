@@ -1,0 +1,5 @@
+ns q1.tcl
+sudo bash run.sh
+xgraph {}_output
+
+

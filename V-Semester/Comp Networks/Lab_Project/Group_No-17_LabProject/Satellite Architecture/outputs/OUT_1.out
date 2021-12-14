@@ -1,0 +1,14 @@
+
+# of Nodes:                   10 
+
+
+
+Throughput:                   3046.96000 
+AverageDelay:                 .23625 
+Sent Packets:                 24127.00000 
+Received Packets:             16321.00000 
+Dropped Packets:              7805.00000 
+PacketDeliveryRatio:          67.65000 
+PacketDropRatio:              32.35000 
+Total time:                   8998.90020 
+Total Delay: 					3856.26230 

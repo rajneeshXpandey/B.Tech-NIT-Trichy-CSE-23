@@ -1,0 +1,2 @@
+ns q2.tcl 5 256
+python3 run.py 5

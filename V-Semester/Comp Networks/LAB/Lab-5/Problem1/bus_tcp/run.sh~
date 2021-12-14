@@ -1,0 +1,3 @@
+ns bus_tcp.tcl
+awk -f plr.awk bus_tcp.tr
+awk -f through_put.awk bus_tcp.tr

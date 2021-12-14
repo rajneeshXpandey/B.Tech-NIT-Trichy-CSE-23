@@ -1,0 +1,114 @@
+ICNW Assignment 1
+
+
+
+man - The man command is used to format and display the man pages.
+ It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS and SEE ALSO.
+syntax :
+$ man [COMMAND NAME]
+
+
+
+Socket:
+
+Linux socket interface
+create an endpoint for communication
+int socket(int domain, int type, int protocol);
+The domain argument specifies a communication domain; this selects
+       the protocol family which will be used for communication.
+The socket has the indicated type, which specifies the communication
+       semantics.
+The protocol specifies a particular protocol to be used with the
+       socket. 
+
+
+
+3. Bind:
+
+bind a name to a socket. 
+int bind(int sockfd, const struct sockaddr *addr,
+                socklen_t addrlen);
+bind() assigns
+       the address specified by addr to the socket referred to by the file
+       descriptor sockfd.  addrlen specifies the size, in bytes, of the
+       address structure pointed to by addr.  Traditionally, this operation
+       is called “assigning a name to a socket”.
+
+
+4.      connect - 
+
+initiate a connection on a socket
+ int connect(int sockfd, const struct sockaddr *addr,
+                   socklen_t addrlen);
+The connect() system call connects the socket referred to by the file
+       descriptor sockfd to the address specified by addr.  The addrlen
+       argument specifies the size of addr.  The format of the address in
+       addr is determined by the address space of the socket sockfd;
+
+
+5.       listen - 
+
+
+listen for connections on a socket
+int listen(int sockfd, int backlog);
+
+
+
+
+       The sockfd argument is a file descriptor that refers to a socket of
+       type SOCK_STREAM or SOCK_SEQPACKET.
+
+       The backlog argument defines the maximum length to which the queue of
+       pending connections for sockfd may grow.
+
+6. Accept:
+
+accept a connection on a socket
+The argument sockfd is a socket that has been created with socket(2),
+       bound to a local address with bind(2), and is listening for
+       connections after a listen(2).
+
+       The argument addr is a pointer to a sockaddr structure.  This
+       structure is filled in with the address of the peer socket, as known
+       to the communications layer.
+
+
+7. Send:
+
+Send  a message on a socket
+
+ssize_t send(int sockfd, const void *buf, size_t len, int flags);
+
+
+       The send() call may be used only when the socket is in a connected
+       state (so that the intended recipient is known).  The only difference
+       between send() and write(2) is the presence of flags.  With a zero
+       flags argument, send() is equivalent to write(2).
+ The argument sockfd is the file descriptor of the sending socket.For send the message is found in buf and has length
+       len.
+
+The flags argument is the bitwise OR of zero or more of the following
+       flags.
+
+
+
+9. Sendto
+used to transmit
+       a message to another socket.
+
+ssize_t sendto(int sockfd, const void *buf, size_t len, int flags,
+                      const struct sockaddr *dest_addr, socklen_t addrlen);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

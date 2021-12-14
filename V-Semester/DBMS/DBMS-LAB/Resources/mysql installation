@@ -1,0 +1,22 @@
+mysql installation in 16.04 ubuntu xenialxcerus
+
+1)
+
+
+    sudo apt-get update
+    sudo apt-get install mysql-server
+    mysql_secure_installation
+
+2)
+
+   sudo apt install mysql-server-5.7
+
+3)
+  ## setup a password
+
+4)  
+   ## open mysql using thsi command
+mysql -p -u root
+  ## then enter your password which u set duriong the installation of the server
+
+

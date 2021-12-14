@@ -1,0 +1,17 @@
+Code References : 
+
+For Satellite Architecture Syntax at upper part of satellite.tcl 
+   { For Eg. near lines 48-56, 90-102 }:
+
+  -> https://www.isi.edu/nsnam/ns/doc/node196.html  
+  			: Used for configuration of satellite nodes
+  -> https://github.com/hbatmit/ns2.35/tree/master/tcl/ex 
+  			: For Iridium like Satellite and terrestrial network setup
+  
+For Muticast Transport Protocol Syntax in multicast.tcl :
+   { For Eg. near lines 44-60, 270-310 }:
+
+    For node configuration in multicast (wireless networks) protocol.
+  		-> https://networksimulator2.com/ns2-multicast-projects/ 
+  		-> https://github.com/hbatmit/ns2.35/blob/master/doc/multicast.tex
+  						

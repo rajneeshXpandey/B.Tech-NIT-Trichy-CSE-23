@@ -1,0 +1,220 @@
+<style>
+  .step-num {
+    color: red;
+    font-weight: bold;
+    white-space: pre;
+  }
+  .step-total {
+    color:red;
+  }
+  .answer .question{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  .step-header {
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    background-color: rgb(156, 226, 223);
+    position: relative;
+    cursor: pointer;
+  }
+  .x {
+    background-color: lightgrey;
+    border: 10px solid rgb(185, 6, 6);
+  }
+  .y {
+    background-color: lightyellow;
+    border: 10px solid green;
+  }
+  .z {
+    background-color:lightyellow;
+    border: 10px solid yellow;
+  }
+  .tele {
+    background-color:rgb(193, 227, 238);
+    border: 5px dashed red;
+  }
+  .up-count{
+    font-size:30px
+  }
+  .down-count{
+    font-size:30px
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  .center {
+    text-align: center;
+  }        
+  .iraq {
+    margin-top: -25px;
+    margin-bottom: -10px;
+  }      
+</style>
+
+<link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" /> 
+
+
+<h1>
+  <div class="tele">
+    <div class="center">
+      <p>This Solution Was Obtained By:</p>
+      <div class="iraq">
+            
+        <svg viewBox="0 0 160 160" width="160" height="160">
+          <defs>
+            <clipPath id="circleView">
+                <circle cx="80" cy="80" r="50"/>            
+            </clipPath>
+        
+          </defs>
+          <image width="170" height="158" xlink:href="https://media.cheggcdn.com/media/fbc/fbc6fa59-9eab-42ca-ab19-3d46198f93a9/phppxMHtH.png" clip-path="url(#circleView)" />
+        
+          <g transform=" matrix(0.55, -0.55, 0.55, 0.55, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="green">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.5s" repeatCount="indefinite" />
+            </path>
+          </g>
+          <g transform=" matrix(0.8, -0.5, 0.6, 0.6, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.7s" repeatCount="indefinite" />
+            </path>
+          </g>
+          <g transform=" matrix(0.7, -0.7, 0.7, 0.7, 80, 80)">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="red">
+              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+            </path>
+          </g>
+        
+        </svg>
+        </div>
+      <mark>Eng Murtadha Bot</mark>
+      <p>
+        <button class="button" onclick="location.href='https://t.me/E_oil'" type="button">
+          For More Solution</button>
+        <!-- <a href= class="button"></a> -->
+      </p>
+    </div>
+  </div>
+</h1>
+
+
+<h1>
+    <p>
+        <div> <mark>.  ( : Question : )  .</mark></div>
+    </p>
+</h1>
+<div class="x">
+<a class="up-count">Introduction to the Theory of Computation ,Edition 3 ,Chapter 1 , Problem 5E</a><div class="question">  <p>Each of the following languages is the complement of a simpler language. In each</p>  <p>part, construct a DFA for the simpler language, then use it to give the state diagram</p>  <p>of a DFA for the language given. In all parts, ∑ = {a, b}.</p>  <p>A<b>a. </b>{w| w does not contain the substring ab}</p>  <p>A<b>b. </b>{w| w does not contain the substring baba}</p>  <p>    <b>c. </b>{w| w contains neither the substrings ab nor ba}</p>  <p>    <b>d. </b>{w| w is any string not in a*b*}</p>  <p>    <b>e. </b>{w| w is any string not in (ab<b>+</b>)*}</p>  <p>    <b>f. </b>{w| w is any string not in a* ∪ b*}</p>  <p>    <b>g. </b>{w| w is any string that doesn’t contain exactly two a’s}</p>  <p>    <b>h. </b>{w| w is any string except a and b}</p>  </div>
+</div>
+<h1>
+    <p>
+        <div> <mark>.  ( : Solution : )  .</mark></div>
+    </p>
+</h1>
+<div class="y">
+
+
+            <h4 class="step-header"><span class="step-num">Step 1 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(a) The language is </p> <p> <img src="https://media.cheggcdn.com/study/675/675e8076-a3ab-4dde-a9ba-bd6f6c1f8b22/9640-1-5E-i1.png" />{<img src="https://media.cheggcdn.com/study/a85/a8560cee-9a60-4dcd-9abc-d54e79cbc4c5/9640-1-5E-i2.png" /> does not contain the substring <i>ab</i>}</p> <p> <img src="https://media.cheggcdn.com/study/08c/08c0501f-21f3-487c-813b-be36519da08e/9640-1-5E-i3.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/0a5/0a582ec9-f70b-4036-933f-ba479e81f67c/9640-1-5E-i4.png" />{<img src="https://media.cheggcdn.com/study/a8f/a8f567f2-76ec-4e76-a8e8-ce72bef57e80/9640-1-5E-i5.png" /> contain the substring <i>ab</i>}</p> <p> <i>DFA</i> recognizes the language <i>L</i> is a follows:</p> <p> <img src="https://media.cheggcdn.com/study/2c4/2c479b41-ce45-4ea8-8cad-f69ab8cfa2ff/9640-1-5E-i6.png" alt="Picture 3" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 2 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes the language <img src="https://media.cheggcdn.com/study/a77/a7749a76-5e56-4908-bcf0-75b363794b54/9640-1-5E-i7.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/187/187d45a4-5070-4a5a-88a6-b38410794eb0/9640-1-5E-i8.png" alt="2287-1-5E_2" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 3 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(b) The language is </p> <p> <img src="https://media.cheggcdn.com/study/189/189ecf53-bcec-45ae-8b33-69b544629a3f/9640-1-5E-i9.png" />{<img src="https://media.cheggcdn.com/study/6f7/6f778c82-368a-486e-83c2-b08c91a82321/9640-1-5E-i10.png" /> does not contain the substring <i>baba</i>}</p> <p> <img src="https://media.cheggcdn.com/study/9f3/9f3eee04-e276-4b24-bdf1-e97eaa76cc61/9640-1-5E-i11.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/21e/21e77377-c94b-4410-9b00-fb580578b965/9640-1-5E-i12.png" />{<img src="https://media.cheggcdn.com/study/d06/d06a2871-ad34-4959-bae2-60ac6b9ce418/9640-1-5E-i13.png" /> contain the substring <i>baba</i>}</p> <p> <i>DFA</i> that recognizes the language <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/bb9/bb980411-ab64-4f7e-9809-775071b1ee6d/9640-1-5E-i14.png" alt="2287-1-5E_3" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 4 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes the language <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/4e7/4e7828f4-f05f-40a2-b22d-e3f7e986d8c2/9640-1-5E-i15.png" alt="2287-1-5E_4" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 5 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(c) The language is </p> <p> <img src="https://media.cheggcdn.com/study/01d/01d7acde-5881-4e9f-a0a5-50df6b0765dd/9640-1-5E-i16.png" />{<img src="https://media.cheggcdn.com/study/9e7/9e73ba5c-58ad-4dce-8e69-32e576d19772/9640-1-5E-i17.png" /> contains neither the substrings <i>ab</i> nor <i>ba</i>}</p> <p> <img src="https://media.cheggcdn.com/study/16f/16f2f137-48f2-44f9-beeb-0439e0af97ba/9640-1-5E-i18.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/9e6/9e67f32b-a14d-4001-9ee3-c81ea40ecf35/9640-1-5E-i19.png" />{<img src="https://media.cheggcdn.com/study/dfb/dfbf5c0c-381c-46fc-ba2f-65c76f1bc192/9640-1-5E-i20.png" /> contains either the substring <i>ab</i> or <i>ba</i>}</p> <p> <i>DFA</i> that recognizes the language <i>L</i> is as follows</p> <p> <img src="https://media.cheggcdn.com/study/69c/69c25b6f-b68f-4cf3-ae68-ece86c5840c2/9640-1-5E-i21.png" alt="Picture 1" /> </p> <p> <i>DFA</i> that recognizes the language <img src="https://media.cheggcdn.com/study/620/62047a80-98e6-475a-91e0-b2f9dff8879c/9640-1-5E-i22.png" /> is as follows:</p> <p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 6 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <img src="https://media.cheggcdn.com/study/087/08769040-470a-4602-b087-3f486a7caa66/9640-1-5E-i23.png" alt="Picture 2" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 7 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(d) The language is </p> <p> <img src="https://media.cheggcdn.com/study/5d5/5d5a10f4-3d44-4957-b4a7-d00e03072a04/9640-1-5E-i24.png" />{<img src="https://media.cheggcdn.com/study/3bd/3bd46f8f-bfa6-4202-86a8-2337d138fcbf/9640-1-5E-i25.png" /> is any string not in <img src="https://media.cheggcdn.com/study/850/8502bb8f-eca8-48a0-877c-0e4473e57557/9640-1-5E-i26.png" />}</p> <p> <img src="https://media.cheggcdn.com/study/4a5/4a5eefc1-b925-41a0-81e6-366fca210df0/9640-1-5E-i27.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/357/357fca80-7bb6-4e05-83f7-892ce39d3c15/9640-1-5E-i28.png" />{<img src="https://media.cheggcdn.com/study/e37/e37aef49-f121-4382-94e9-bc8e3cd14133/9640-1-5E-i29.png" /> is any string in <img src="https://media.cheggcdn.com/study/122/1223b1fe-06f9-4c8a-b101-e759c4af88ae/9640-1-5E-i30.png" />}</p> <p> <i>DFA</i> that recognizes the language <i>L</i> as follows</p> <p> <img src="https://media.cheggcdn.com/study/ce7/ce717bc7-917b-4577-b0c4-f82db17fe04e/9640-1-5E-i31.png" alt="1" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 8 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes the language <img src="https://media.cheggcdn.com/study/7c9/7c9ba65c-3b40-49cc-8afb-c554ed6e7efc/9640-1-5E-i32.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/1da/1da2c8c7-d945-46e2-8edf-c4a3a30c29e5/9640-1-5E-i33.png" alt="1" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 9 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(e) The language is </p> <p> <img src="https://media.cheggcdn.com/study/36b/36b9c7af-9724-413b-a81a-2dccd37a82d1/9640-1-5E-i34.png" />{<img src="https://media.cheggcdn.com/study/b38/b38e5124-9f00-469d-adc9-da7dda269899/9640-1-5E-i35.png" /> is any string not in <img src="https://media.cheggcdn.com/study/22a/22a13d1f-669c-456b-90fa-1bfcc3445a5f/9640-1-5E-i36.png" />}</p> <p> <img src="https://media.cheggcdn.com/study/fc8/fc8efec8-d1a1-4208-a2d0-cfb6f8c08e62/9640-1-5E-i37.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/ff3/ff372572-7ad9-4c25-be61-e1c3350e7bf0/9640-1-5E-i38.png" />{<img src="https://media.cheggcdn.com/study/0dd/0dd53ab3-55e6-472b-bb00-81853eec0a9b/9640-1-5E-i39.png" /> is any string in <img src="https://media.cheggcdn.com/study/d3b/d3bd879d-d4e0-4508-bae0-d8085dc01da2/9640-1-5E-i40.png" />}</p> <p> <i>DFA</i> that recognizes the language <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/212/2125390f-3d43-4e9a-906c-849530b8c935/9640-1-5E-i41.png" alt="Picture 6" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 10 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes the language <img src="https://media.cheggcdn.com/study/d65/d6546ad1-4ab1-460a-8a67-6a98a3a87156/9640-1-5E-i42.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/72c/72c51506-3180-4693-bdb9-910aa29734fd/9640-1-5E-i43.png" alt="Picture 10" /> </p> <p>(f) </div>
+
+            <h4 class="step-header"><span class="step-num">Step 11 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer">The language is </p> <p> <img src="https://media.cheggcdn.com/study/c34/c343df94-080a-497a-9507-9d9dfb5d51ee/9640-1-5E-i44.png" />{<img src="https://media.cheggcdn.com/study/e3c/e3caa043-0ec1-4909-85eb-1a259e9c3069/9640-1-5E-i45.png" /> is any string not in <img src="https://media.cheggcdn.com/study/797/797b7dc4-f8fe-4d0e-9eda-89708025d4cd/9640-1-5E-i46.png" />}</p> <p> <img src="https://media.cheggcdn.com/study/247/2470cd16-1a97-4a78-98b8-eaabc9657b68/9640-1-5E-i47.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/127/12772576-1b2d-438c-9446-aa43570cb36f/9640-1-5E-i48.png" />{<img src="https://media.cheggcdn.com/study/ba1/ba18ff08-9b54-42e3-abbb-c99bb27fe303/9640-1-5E-i49.png" /> is any string in <img src="https://media.cheggcdn.com/study/256/2564786b-550d-4dc0-9f74-9289a7457d4b/9640-1-5E-i50.png" />}</p> <p> <i>DFA</i> that recognizes the language <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/24d/24d53579-e36e-48db-b470-b46437604677/9640-1-5E-i51.png" alt="Picture 7" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 12 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes the language <img src="https://media.cheggcdn.com/study/c14/c14c545a-c09a-4e76-9e28-9b9fbebc1d12/9640-1-5E-i52.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/34a/34a9df95-dee0-4aca-902c-62272068558e/9640-1-5E-i53.png" alt="Picture 9" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 13 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(g) The language is </p> <p> <img src="https://media.cheggcdn.com/study/8fd/8fd1c1fd-f8f7-421c-94a8-3d7a30ab87e7/9640-1-5E-i54.png" />{<img src="https://media.cheggcdn.com/study/914/91462984-1d12-4eb5-9394-78702fb887b3/9640-1-5E-i55.png" /> is any string that doesn’t contain exactly two a’s}</p> <p> <img src="https://media.cheggcdn.com/study/d9d/d9d02699-d775-4041-99e3-a5e27d47c347/9640-1-5E-i56.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/408/4084d4a3-7b30-46b6-9a2a-f49202c243c4/9640-1-5E-i57.png" />{<img src="https://media.cheggcdn.com/study/43b/43bd9b6a-e4dc-4f35-b584-4b91f370e581/9640-1-5E-i58.png" /> is any string contain exactly two <i>a</i>’s}</p> <p> <i>DFA</i> that recognizes <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/e84/e84be4d2-7ae4-47f5-a3e0-8fb1becf47c6/9640-1-5E-i59.png" alt="2287-1-5E_12" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 14 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p> <i>DFA</i> that recognizes <img src="https://media.cheggcdn.com/study/4d3/4d3de5be-850a-46a6-b0c4-b08553c470c4/9640-1-5E-i60.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/0ff/0ff95dbf-291a-4850-9bc3-13ed6a68dc67/9640-1-5E-i61.png" alt="2287-1-5E_13" /> </p> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 15 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer"> <p>(h) The language is </p> <p> <img src="https://media.cheggcdn.com/study/f02/f028e7e7-11aa-4741-ae44-663a4329062f/9640-1-5E-i62.png" />{<img src="https://media.cheggcdn.com/study/6a9/6a94054f-0446-4cf1-9e84-c356541eefb9/9640-1-5E-i63.png" /> is any string except <i>a </i> and <i>b</i>}</p> <p> <img src="https://media.cheggcdn.com/study/918/918c9d22-2b42-4324-b828-a2dfee602baf/9640-1-5E-i64.png" /> is the complement of a simpler language <i>L</i>.</p> <p>Then the simple language is <img src="https://media.cheggcdn.com/study/0a6/0a6f5aac-6879-495c-9815-c9ac6f7121b8/9640-1-5E-i65.png" />{<img src="https://media.cheggcdn.com/study/ffb/ffb828c8-5821-4a9d-90f2-25dc767be482/9640-1-5E-i66.png" /> is <i>a </i> and <i>b</i>}</p> <p> <i>DFA</i> that recognizes <i>L</i> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/fe0/fe049d84-891b-4962-a299-73fbbb471cee/9640-1-5E-i67.png" alt="Picture 11" /> </p> <p> <i> </div>
+
+            <h4 class="step-header"><span class="step-num">Step 16 </span><span class="step-total">of 16</span></h4>
+            
+<div class="answer">DFA</i> that recognizes <img src="https://media.cheggcdn.com/study/06e/06e0704d-e359-4761-b878-71835f87e686/9640-1-5E-i68.png" /> is as follows:</p> <p> <img src="https://media.cheggcdn.com/study/164/164341e1-4c19-498d-a9ca-7873ec3d8c20/9640-1-5E-i69.png" alt="Picture 12" /> </p></div>
+</div>
+<h1>
+  <p>
+      <div> <mark>.  ( : Likes + Dislikes : )  .</mark></div>
+  </p>
+</h1>
+<div class="z">
+  <div id="eggshell-5" class="C-Eggshell-homeworkhelp-thumbrating">
+    <div class="thumb-rating">
+      <button class="positive-rating rating-block" aria-label="Sweet! Glad to be of help!" tabindex="0" aria-describedby="eggshell-6">
+        <div class="thumb-button thumbs-up" aria-label="more information" tabindex="0" aria-describedby="eggshell-13">
+          <img class="thumbs-up-active hidden" src="https://c.cheggcdn.com/assets/icons/thumbs/icn-thumbsup-green.svg" width="50px" height="50px" alt="Thumbs up active">
+        </div>
+        <div class="up-count" aria-label="more information" tabindex="0" aria-describedby="eggshell-42">42</div>
+      </button>
+      <button class="negative-rating rating-block" aria-label="Sorry! Sometimes we make mistakes. Let us know so we can fix it." tabindex="0" aria-describedby="eggshell-7">
+        <div class="thumb-button thumbs-down" aria-label="more information" tabindex="0" aria-describedby="eggshell-13">
+          <img class="thumbs-down-active hidden" src="https://c.cheggcdn.com/assets/icons/thumbs/icn-thumbsdown-red.svg" width="50px" height="50px" alt="Thumbs down active">
+        </div>
+        <div class="down-count" aria-label="more information" tabindex="0" aria-describedby="eggshell-42">1</div>
+      </button>
+    </div>
+  </div>
+</div>

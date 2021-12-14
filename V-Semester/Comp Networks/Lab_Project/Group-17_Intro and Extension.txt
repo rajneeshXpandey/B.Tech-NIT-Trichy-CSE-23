@@ -1,0 +1,30 @@
+
+Group No.: 17
+
+Title : A Reliable Multicast Transport Protocol for Device Management in Space-ground Integrated Network 
+
+
+Introduction : 
+
+        The existing reliable multicast transport protocols tend to maintain
+        a stable structure during the full lifecycle, which sharply reduces the efficiency
+        and is not suitable for device management in satellite network.
+
+        In this paper, we design a reliable multicast transport protocol for device management,
+        which contains 2 key ideas: 
+
+            1) In the aspect of acknowledgement aggregation, we design a rapidly 
+               tree-organized scheme for a temporary structure in each transmission,
+               to reduce the time cost in dynamic multicast group forming. 
+
+            2) In the aspect of local error recovery, we present an evaluation 
+               scheme in the quality of communication, to choose a less-energy-cost way
+               between local multicast and local broadcast to relay.
+
+Extension : 
+
+        Future works will be focused on the optimization in the located and the election of the proxy node,
+        to increase the universality. 
+        Also to Design the Efficient Brodcasting Algorithm, when the model demands broadcast over multicast.
+        Similar Ideas in the field of Vehicular Ad Hoc Network can be explored.
+

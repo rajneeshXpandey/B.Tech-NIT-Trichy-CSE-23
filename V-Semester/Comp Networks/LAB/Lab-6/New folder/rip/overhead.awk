@@ -1,0 +1,21 @@
+BEGIN{
+tcp=0;
+ack=0;
+curr=0;
+}
+{
+event=$1;
+pckt=$5;
+toNode=$4;
+if(pckt=="ack")
+{
+ack++;
+}
+if(pckt=="tcp")
+{
+tcp++;
+}
+}
+END{
+printf("\nRouting Control Overhead : %.4f",ack/tcp)
+}

@@ -1,0 +1,2 @@
+ns lab7.tcl
+python3 parsetrace.py randommac.tr

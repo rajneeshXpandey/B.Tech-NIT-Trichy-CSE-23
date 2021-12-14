@@ -1,0 +1,70 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+c -t * -i 1 -n Blue
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+l -t * -s 0 -d 1 -S UP -r 1000000 -D 0.20000000000000001 -c black -o right
+a -t 0 -s 0 -d 1 -n tcp
+v -t 0 -e monitor_agent 0 tcp
+n -t 0 -s 0 -S DLABEL -l " Sender " -L ""
+n -t 0 -s 1 -S DLABEL -l "Receiver" -L ""
++ -t 0.5 -s 0 -d 1 -p tcp -e 40 -c 1 -i 0 -a 1 -x {0.0 1.0 0 ------- null}
+- -t 0.5 -s 0 -d 1 -p tcp -e 40 -c 1 -i 0 -a 1 -x {0.0 1.0 0 ------- null}
+h -t 0.5 -s 0 -d 1 -p tcp -e 40 -c 1 -i 0 -a 1 -x {0.0 1.0 -1 ------- null}
+r -t 0.70032 -s 0 -d 1 -p tcp -e 40 -c 1 -i 0 -a 1 -x {0.0 1.0 0 ------- null}
++ -t 0.70032 -s 1 -d 0 -p ack -e 40 -c 1 -i 1 -a 1 -x {1.0 0.0 0 ------- null}
+- -t 0.70032 -s 1 -d 0 -p ack -e 40 -c 1 -i 1 -a 1 -x {1.0 0.0 0 ------- null}
+h -t 0.70032 -s 1 -d 0 -p ack -e 40 -c 1 -i 1 -a 1 -x {1.0 0.0 -1 ------- null}
+r -t 0.90064 -s 1 -d 0 -p ack -e 40 -c 1 -i 1 -a 1 -x {1.0 0.0 0 ------- null}
++ -t 0.90064 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 2 -a 1 -x {0.0 1.0 1 ------- null}
+- -t 0.90064 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 2 -a 1 -x {0.0 1.0 1 ------- null}
+h -t 0.90064 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 2 -a 1 -x {0.0 1.0 -1 ------- null}
+v -t 1 -e sim_annotation 1 1 send packet 1
+r -t 1.10896 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 2 -a 1 -x {0.0 1.0 1 ------- null}
++ -t 1.10896 -s 1 -d 0 -p ack -e 40 -c 1 -i 3 -a 1 -x {1.0 0.0 1 ------- null}
+- -t 1.10896 -s 1 -d 0 -p ack -e 40 -c 1 -i 3 -a 1 -x {1.0 0.0 1 ------- null}
+h -t 1.10896 -s 1 -d 0 -p ack -e 40 -c 1 -i 3 -a 1 -x {1.0 0.0 -1 ------- null}
+r -t 1.30928 -s 1 -d 0 -p ack -e 40 -c 1 -i 3 -a 1 -x {1.0 0.0 1 ------- null}
++ -t 1.30928 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 4 -a 1 -x {0.0 1.0 2 ------- null}
+- -t 1.30928 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 4 -a 1 -x {0.0 1.0 2 ------- null}
+h -t 1.30928 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 4 -a 1 -x {0.0 1.0 -1 ------- null}
+v -t 1.4 -e sim_annotation 1.4 2 recieve ack 1
+r -t 1.5176 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 4 -a 1 -x {0.0 1.0 2 ------- null}
++ -t 1.5176 -s 1 -d 0 -p ack -e 40 -c 1 -i 5 -a 1 -x {1.0 0.0 2 ------- null}
+- -t 1.5176 -s 1 -d 0 -p ack -e 40 -c 1 -i 5 -a 1 -x {1.0 0.0 2 ------- null}
+h -t 1.5176 -s 1 -d 0 -p ack -e 40 -c 1 -i 5 -a 1 -x {1.0 0.0 -1 ------- null}
+r -t 1.71792 -s 1 -d 0 -p ack -e 40 -c 1 -i 5 -a 1 -x {1.0 0.0 2 ------- null}
++ -t 1.71792 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 6 -a 1 -x {0.0 1.0 3 ------- null}
+- -t 1.71792 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 6 -a 1 -x {0.0 1.0 3 ------- null}
+h -t 1.71792 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 6 -a 1 -x {0.0 1.0 -1 ------- null}
+r -t 1.92624 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 6 -a 1 -x {0.0 1.0 3 ------- null}
++ -t 1.92624 -s 1 -d 0 -p ack -e 40 -c 1 -i 7 -a 1 -x {1.0 0.0 3 ------- null}
+- -t 1.92624 -s 1 -d 0 -p ack -e 40 -c 1 -i 7 -a 1 -x {1.0 0.0 3 ------- null}
+h -t 1.92624 -s 1 -d 0 -p ack -e 40 -c 1 -i 7 -a 1 -x {1.0 0.0 -1 ------- null}
+v -t 2 -e sim_annotation 2 3 send packet 2
+r -t 2.12656 -s 1 -d 0 -p ack -e 40 -c 1 -i 7 -a 1 -x {1.0 0.0 3 ------- null}
++ -t 2.12656 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 8 -a 1 -x {0.0 1.0 4 ------- null}
+- -t 2.12656 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 8 -a 1 -x {0.0 1.0 4 ------- null}
+h -t 2.12656 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 8 -a 1 -x {0.0 1.0 -1 ------- null}
+r -t 2.33488 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 8 -a 1 -x {0.0 1.0 4 ------- null}
++ -t 2.33488 -s 1 -d 0 -p ack -e 40 -c 1 -i 9 -a 1 -x {1.0 0.0 4 ------- null}
+- -t 2.33488 -s 1 -d 0 -p ack -e 40 -c 1 -i 9 -a 1 -x {1.0 0.0 4 ------- null}
+h -t 2.33488 -s 1 -d 0 -p ack -e 40 -c 1 -i 9 -a 1 -x {1.0 0.0 -1 ------- null}
+v -t 2.5 -e sim_annotation 2.5 4 receive ack 2
+r -t 2.5352 -s 1 -d 0 -p ack -e 40 -c 1 -i 9 -a 1 -x {1.0 0.0 4 ------- null}
++ -t 2.5352 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 10 -a 1 -x {0.0 1.0 5 ------- null}
+- -t 2.5352 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 10 -a 1 -x {0.0 1.0 5 ------- null}
+h -t 2.5352 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 10 -a 1 -x {0.0 1.0 -1 ------- null}
+r -t 2.74352 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 10 -a 1 -x {0.0 1.0 5 ------- null}
++ -t 2.74352 -s 1 -d 0 -p ack -e 40 -c 1 -i 11 -a 1 -x {1.0 0.0 5 ------- null}
+- -t 2.74352 -s 1 -d 0 -p ack -e 40 -c 1 -i 11 -a 1 -x {1.0 0.0 5 ------- null}
+h -t 2.74352 -s 1 -d 0 -p ack -e 40 -c 1 -i 11 -a 1 -x {1.0 0.0 -1 ------- null}
+r -t 2.94384 -s 1 -d 0 -p ack -e 40 -c 1 -i 11 -a 1 -x {1.0 0.0 5 ------- null}
++ -t 2.94384 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 12 -a 1 -x {0.0 1.0 6 ------- null}
+- -t 2.94384 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 12 -a 1 -x {0.0 1.0 6 ------- null}
+h -t 2.94384 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 12 -a 1 -x {0.0 1.0 -1 ------- null}
+r -t 3.15216 -s 0 -d 1 -p tcp -e 1040 -c 1 -i 12 -a 1 -x {0.0 1.0 6 ------- null}
+v -t 3.2 -e sim_annotation 3.2 5 send packet 3
+v -t 3.5 -e sim_annotation 3.5 6 receive ack 3
+v -t 3.8 -e sim_annotation 3.8 7 send packet 4

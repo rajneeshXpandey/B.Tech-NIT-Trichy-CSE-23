@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+}
+.container {
+    background-color: rgba(2, 255, 242, 0.39);
+}
+form {
+    justify-content: center;
+    padding: .5rem;
+    background-color: rgba(214, 250, 250, 0.747);
+}
+form label {
+    justify-content: center;
+    width: 100%;
+}
+form input {
+    justify-content: center;
+    width: 100%;
+    margin: .2rem;
+}
+
+button {
+    width: 33%;
+    margin-left: 33%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
