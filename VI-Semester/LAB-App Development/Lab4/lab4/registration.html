@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Welcome to Registration</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <script>  
+        var request;  
+        function sendInfo(){  
+
+        var name= document.reg.name.value;  
+        var address= document.reg.address.value;  
+        var phoneno= document.reg.phoneno.value;  
+        var loginid= document.reg.loginid.value;  
+        var password= document.reg.password.value; 
+
+        var rooturl = "registration.jsp?name="+name+"&address="+address+"&phoneno="+phoneno+"&loginid="+loginid+"&password="+password;
+
+          if(window.XMLHttpRequest){  
+              request=new XMLHttpRequest();  
+          }  
+          else if(window.ActiveXObject){  
+            request=new ActiveXObject("Microsoft.XMLHTTP");  
+          }  
+            
+          try{  
+            request.onreadystatechange=getInfo;  
+            request.open("GET",rooturl,true);  
+            request.send();  
+          }catch(e){alert("Unable to connect to server");}  
+
+        }  
+          
+        function getInfo(){  
+          if(request.readyState==4){  
+          var val=request.responseText;  
+          document.getElementById('result').innerHTML=val;  
+          }  
+        }  
+          
+</script> 
+
+  <body>
+    <br /><br />
+     <h1 align="center">Register</h1>
+    <form name="reg" >
+      <table align="center">
+        <tr>
+          <td>NAME:</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>ADDRESS:</td>
+          <td><input type="text" name="address" /></td>
+        </tr>
+        <tr>
+          <td>CONTACT NUMBER:</td>
+          <td><input type="text" name="phoneno" /></td>
+        </tr>
+        <tr>
+          <td>LOGINID:</td>
+          <td><input type="text" name="loginid" /></td>
+        </tr>
+        <tr>
+          <td>PASSWORD:</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+      </table>
+      <br /><br />
+      <div align="center">
+      <input id="clickMe" type="button" value="Register" onclick="sendInfo();" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="reset" value="clear" name="button2" />
+      </div>
+    </form>
+    <div id="result"></div>
+  </body>
+</html>

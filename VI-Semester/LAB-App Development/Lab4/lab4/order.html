@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Welcome to Order</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+  <script>
+    var request;
+    function sendInfo(){
+
+      var loginid= document.orderbook.loginid.value;  
+      var password= document.orderbook.password.value;  
+      var title= document.orderbook.title.value;  
+      var numberofbooks= document.orderbook.numberofbooks.value;  
+      var date=document.orderbook.date.value;  
+      var cardno=document.orderbook.cardno.value;  
+     
+      var rooturl="order.jsp?loginid="+loginid+"&password="+password+"&title="+title+"&numberofbooks="+numberofbooks+"&date="+date+"&cardno="+cardno;
+
+      if(window.XMLHttpRequest){  
+          request=new XMLHttpRequest();  
+      }  
+      else if(window.ActiveXObject){  
+          request=new ActiveXObject("Microsoft.XMLHTTP");  
+      }  
+        
+      try{  
+        request.onreadystatechange=getInfo;  
+        request.open("GET",rooturl,true);  
+        request.send();
+      }catch(e){alert("Unable to connect to server");}  
+    }  
+    function getInfo(){  
+      if(request.readyState==4){  
+        var val=request.responseText;  
+        document.getElementById('result').innerHTML=val;  
+      }  
+    } 
+  </script>
+
+  </head>
+  <body>
+     <br />
+    <h1 align="center">Order your book</h1>
+    <form name="orderbook">
+      <div align="center">
+            ID :<input type="text" name="loginid" id="loginid" /><br />
+            PASSWORD :<input type="password" name="password" id="password" /><br/> 
+            TITLE: <input type="text" name="title" id="title" /><br /> 
+            NO. OF BOOKS :<input type="text" name="numberofbooks" id="numberofbooks" /><br />
+            DATE:<input type="text" name="date" id="date"/><br />
+            CARD NUMBER :<input type="password" name="cardno"  id="cardno"/>
+      </div>
+     <div align="center">
+        <input id="clickMe" type="button" value="Order" onclick="sendInfo();" />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="reset" value="Clear" name="button2" />
+      </div>
+    </form>
+    <span id="result"></span>
+  </body>
+</html>

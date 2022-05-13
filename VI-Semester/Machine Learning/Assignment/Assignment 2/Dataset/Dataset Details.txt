@@ -1,0 +1,6 @@
+1. No. of Samples = 500
+2. First Column (Height) is in micrometer (range 1000000 to 1700000)
+3. Second Column (Weight) is in kg (range 40 to 150)
+4. Target (y) is gender (Male/Female)
+
+Note: Height and Weight have large scale difference to see effect of normalization

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Invoking Servlet From HTML</title>
+  </head>
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./style/style.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <div class="testbox">
+      <h1>Registration</h1>
+
+      <form action="./welcome" method="post">
+        <input type="text" name="Email" id="name" placeholder="Email" required />
+        <input type="text" name="Name" id="name" placeholder="Name" required />
+        <input
+          type="password"
+          name="Password"
+          id="name"
+          placeholder="Password"
+          required
+        />
+          <input type="date" name="Date of Birth" id="name" placeholder="Date of Birth" />
+        <button type="submit" class="button">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>

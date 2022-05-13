@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "port": 8000,
+      "host": "localhost",
+      "program": "D:/Documents/Academics/NIT Trichy/Semesters/VI-Semester/Principles of Cryptography/Assignment/1/Code/public/main.go",
+      "showLog": true,
+      "env": {
+        "PATH": "/usr/local/go/bin:D:/Documents/Academics/NIT Trichy/Semesters/VI-Semester/Principles of Cryptography/Assignment/1/Code/public/"
+      },
+      "args": []
+    }
+  ]
+}

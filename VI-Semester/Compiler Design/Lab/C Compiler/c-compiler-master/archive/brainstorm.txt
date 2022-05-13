@@ -1,0 +1,183 @@
+TARGET:
+
+program
+    header files
+    main function
+        body
+            statements
+            loops
+                statements
+            statements
+            loops
+                statements
+                loops
+                    statements
+            statements
+        return
+
+PARSER_v2:
+
+program
+    header files
+    main function
+        body
+            statements
+            loops
+                statements
+            statements
+            loops
+                statements
+                loops
+                    statements
+            statements
+        return 
+
+
+PARSER_v1:
+
+body
+    statements
+    loops
+        statements
+    statements
+    loops
+        statements
+        loops
+            statements
+    statements
+
+
+PARSER_v4
+
+program
+    headers main ( ) { body return }
+headers
+    headers headers
+    INCLUDE
+main
+    datatype ID
+datatype    
+    INT
+    FLOAT
+    CHAR
+    VOID
+body
+    FOR ( statement ; statement ; statement ) { body }
+    statement ;
+    body body
+    PRINTFF ( STRLT ) ;
+    SCANFF ( STRLT , & ID ) ;
+statement
+    datatype ID init
+    ID = expression
+    ID relop value
+    ID UNARY
+    UNARY ID
+init
+    = value
+    nothing
+value
+    ID
+    NUMBER
+expression
+    expression arithmetic expression
+    value
+arithmetic
+    ADD
+    SUBTRACT
+    MULTIPLY
+    DIVIDE
+relop
+    LT
+    GT
+    LE
+    GE
+    EQ
+    NE
+return
+    RETURN value ;
+    nothing
+
+
+
+################################
+program
+    headers main ( ) { body return }
+headers
+    headers headers
+    INCLUDE
+main
+    datatype ID
+datatype    
+    INT
+    FLOAT
+    CHAR
+    VOID
+body
+    FOR ( stmt1 ; stmt2 ; stmt3 ) { body }
+    IF ( condition ) { body } else
+    assignment
+    defintion
+    body body
+    PRINTFF ( STRLT ) ;
+    SCANFF ( STRLT , & ID ) ;
+else
+    ELSE { body }
+    nothing
+condition
+    condition AND boolean
+    condition OR boolean
+    NE condition
+    boolean
+boolean
+    expression relop expression
+    TRUE
+    FALSE
+    value
+init
+    = value
+    nothing
+value
+    ID
+    NUMBER
+expression
+    expression arithmetic expression
+    value
+arithmetic
+    ADD
+    SUBTRACT
+    MULTIPLY
+    DIVIDE
+relop
+    LT
+    GT
+    LE
+    GE
+    EQ
+    NE
+return
+    RETURN NUMBER ;
+    RETURN ID ;
+    nothing
+
+
+*********** Stuff to Handle ***********
+1. Arrays
+2. Negative numbers
+
+*********** Semantic Analysis phase *********** 
+Static sematic checks
+
+1. The variables must be declared before they are used
+2. The variables must have matching types when used in arithmetic expressions 
+3. There should be no duplicate declarations - Allowed in different scopes but we consider single scope for simplicity.
+
+*********** Type conversions to handle ***********
+
+1. int i = 3.14 => floattoint(3.14)
+2. float i = 3 => inttofloat(3)
+
+7. +, *, -, / of different types => convert to float
+8. id = expression of different types => convert expression to type of id
+9. expression relop expression => convert to float
+

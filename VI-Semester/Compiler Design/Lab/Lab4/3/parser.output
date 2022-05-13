@@ -1,0 +1,356 @@
+Grammar
+
+    0 $accept: program $end
+
+    1 program: program loop body
+    2        | loop body
+
+    3 loop: FOR '(' for_statements ')'
+
+    4 body: statement
+    5     | '{' statements '}'
+    6     | '{' loop '}' body
+
+    7 for_statements: statement ';' statement ';' statement
+
+    8 statements: statements statement ';'
+    9           | statement ';'
+
+   10 statement: ID BINARY statement
+   11          | ID UNARY
+   12          | UNARY ID
+   13          | ID
+   14          | NUMBER
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'(' (40) 3
+')' (41) 3
+';' (59) 7 8 9
+'{' (123) 5 6
+'}' (125) 5 6
+error (256)
+FOR (258) 3
+ID (259) 10 11 12 13
+NUMBER (260) 14
+UNARY (261) 11 12
+BINARY (262) 10
+
+
+Nonterminals, with rules where they appear
+
+$accept (13)
+    on left: 0
+program (14)
+    on left: 1 2, on right: 0 1
+loop (15)
+    on left: 3, on right: 1 2 6
+body (16)
+    on left: 4 5 6, on right: 1 2 6
+for_statements (17)
+    on left: 7, on right: 3
+statements (18)
+    on left: 8 9, on right: 5 8
+statement (19)
+    on left: 10 11 12 13 14, on right: 4 7 8 9 10
+
+
+state 0
+
+    0 $accept: . program $end
+
+    FOR  shift, and go to state 1
+
+    program  go to state 2
+    loop     go to state 3
+
+
+state 1
+
+    3 loop: FOR . '(' for_statements ')'
+
+    '('  shift, and go to state 4
+
+
+state 2
+
+    0 $accept: program . $end
+    1 program: program . loop body
+
+    $end  shift, and go to state 5
+    FOR   shift, and go to state 1
+
+    loop  go to state 6
+
+
+state 3
+
+    2 program: loop . body
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+    '{'     shift, and go to state 10
+
+    body       go to state 11
+    statement  go to state 12
+
+
+state 4
+
+    3 loop: FOR '(' . for_statements ')'
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+
+    for_statements  go to state 13
+    statement       go to state 14
+
+
+state 5
+
+    0 $accept: program $end .
+
+    $default  accept
+
+
+state 6
+
+    1 program: program loop . body
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+    '{'     shift, and go to state 10
+
+    body       go to state 15
+    statement  go to state 12
+
+
+state 7
+
+   10 statement: ID . BINARY statement
+   11          | ID . UNARY
+   13          | ID .
+
+    UNARY   shift, and go to state 16
+    BINARY  shift, and go to state 17
+
+    $default  reduce using rule 13 (statement)
+
+
+state 8
+
+   14 statement: NUMBER .
+
+    $default  reduce using rule 14 (statement)
+
+
+state 9
+
+   12 statement: UNARY . ID
+
+    ID  shift, and go to state 18
+
+
+state 10
+
+    5 body: '{' . statements '}'
+    6     | '{' . loop '}' body
+
+    FOR     shift, and go to state 1
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+
+    loop        go to state 19
+    statements  go to state 20
+    statement   go to state 21
+
+
+state 11
+
+    2 program: loop body .
+
+    $default  reduce using rule 2 (program)
+
+
+state 12
+
+    4 body: statement .
+
+    $default  reduce using rule 4 (body)
+
+
+state 13
+
+    3 loop: FOR '(' for_statements . ')'
+
+    ')'  shift, and go to state 22
+
+
+state 14
+
+    7 for_statements: statement . ';' statement ';' statement
+
+    ';'  shift, and go to state 23
+
+
+state 15
+
+    1 program: program loop body .
+
+    $default  reduce using rule 1 (program)
+
+
+state 16
+
+   11 statement: ID UNARY .
+
+    $default  reduce using rule 11 (statement)
+
+
+state 17
+
+   10 statement: ID BINARY . statement
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+
+    statement  go to state 24
+
+
+state 18
+
+   12 statement: UNARY ID .
+
+    $default  reduce using rule 12 (statement)
+
+
+state 19
+
+    6 body: '{' loop . '}' body
+
+    '}'  shift, and go to state 25
+
+
+state 20
+
+    5 body: '{' statements . '}'
+    8 statements: statements . statement ';'
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+    '}'     shift, and go to state 26
+
+    statement  go to state 27
+
+
+state 21
+
+    9 statements: statement . ';'
+
+    ';'  shift, and go to state 28
+
+
+state 22
+
+    3 loop: FOR '(' for_statements ')' .
+
+    $default  reduce using rule 3 (loop)
+
+
+state 23
+
+    7 for_statements: statement ';' . statement ';' statement
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+
+    statement  go to state 29
+
+
+state 24
+
+   10 statement: ID BINARY statement .
+
+    $default  reduce using rule 10 (statement)
+
+
+state 25
+
+    6 body: '{' loop '}' . body
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+    '{'     shift, and go to state 10
+
+    body       go to state 30
+    statement  go to state 12
+
+
+state 26
+
+    5 body: '{' statements '}' .
+
+    $default  reduce using rule 5 (body)
+
+
+state 27
+
+    8 statements: statements statement . ';'
+
+    ';'  shift, and go to state 31
+
+
+state 28
+
+    9 statements: statement ';' .
+
+    $default  reduce using rule 9 (statements)
+
+
+state 29
+
+    7 for_statements: statement ';' statement . ';' statement
+
+    ';'  shift, and go to state 32
+
+
+state 30
+
+    6 body: '{' loop '}' body .
+
+    $default  reduce using rule 6 (body)
+
+
+state 31
+
+    8 statements: statements statement ';' .
+
+    $default  reduce using rule 8 (statements)
+
+
+state 32
+
+    7 for_statements: statement ';' statement ';' . statement
+
+    ID      shift, and go to state 7
+    NUMBER  shift, and go to state 8
+    UNARY   shift, and go to state 9
+
+    statement  go to state 33
+
+
+state 33
+
+    7 for_statements: statement ';' statement ';' statement .
+
+    $default  reduce using rule 7 (for_statements)

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325214281569",
+    "project_id": "lab9-otp-verify",
+    "storage_bucket": "lab9-otp-verify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325214281569:android:a649fccf73872e2392ef20",
+        "android_client_info": {
+          "package_name": "com.example.lab9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325214281569-7v9rfjrmq6lsa89f697jf2o5o27ttra7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiLje2dT043vRZKWGF1XCv-uwcsC7vDf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325214281569-7v9rfjrmq6lsa89f697jf2o5o27ttra7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

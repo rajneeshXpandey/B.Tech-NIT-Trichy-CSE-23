@@ -1,0 +1,40 @@
+<!--<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >-->
+
+<web-app>
+    <servlet>
+      <servlet-name>SetHiddenFieldServlet</servlet-name>
+      <servlet-class>
+        com.lab2b.Hidden_Form_Fields.SetHiddenFieldServlet
+      </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>SetHiddenFieldServlet</servlet-name>
+      <url-pattern>/SetHiddenFieldServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>GetHiddenFieldServlet</servlet-name>
+      <servlet-class>
+        com.lab2b.Hidden_Form_Fields.GetHiddenFieldServlet
+      </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>GetHiddenFieldServlet</servlet-name>
+      <url-pattern>/GetHiddenFieldServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+      <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+      <servlet-name>SessionTracker</servlet-name>
+      <servlet-class>com.lab2b.hit_count.SessionTracker</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>SessionTracker</servlet-name>
+      <url-pattern>/SessionTracker</url-pattern>
+    </servlet-mapping>
+</web-app>

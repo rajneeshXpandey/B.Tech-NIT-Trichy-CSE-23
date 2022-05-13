@@ -1,0 +1,625 @@
+Grammar
+
+    0 $accept: statement $end
+
+    1 statement: LETTER '=' exp ';'
+
+    2 exp: exp '+' exp
+    3    | exp '-' exp
+    4    | exp '/' exp
+    5    | exp '*' exp
+    6    | exp '<' exp
+    7    | exp '>' exp
+    8    | exp AND exp
+    9    | exp OR exp
+   10    | exp GE exp
+   11    | exp LE exp
+   12    | exp NE exp
+   13    | exp EQ exp
+   14    | '(' exp ')'
+   15    | NUMBER
+   16    | LETTER
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'(' (40) 14
+')' (41) 14
+'*' (42) 5
+'+' (43) 2
+'-' (45) 3
+'/' (47) 4
+';' (59) 1
+'<' (60) 6
+'=' (61) 1
+'>' (62) 7
+error (256)
+OR (258) 9
+AND (259) 8
+EQ (260) 13
+NE (261) 12
+LE (262) 11
+GE (263) 10
+LETTER (264) 1 16
+NUMBER (265) 15
+
+
+Nonterminals, with rules where they appear
+
+$accept (21)
+    on left: 0
+statement (22)
+    on left: 1, on right: 0
+exp (23)
+    on left: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16, on right: 1 2 3
+    4 5 6 7 8 9 10 11 12 13 14
+
+
+state 0
+
+    0 $accept: . statement $end
+
+    LETTER  shift, and go to state 1
+
+    statement  go to state 2
+
+
+state 1
+
+    1 statement: LETTER . '=' exp ';'
+
+    '='  shift, and go to state 3
+
+
+state 2
+
+    0 $accept: statement . $end
+
+    $end  shift, and go to state 4
+
+
+state 3
+
+    1 statement: LETTER '=' . exp ';'
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 8
+
+
+state 4
+
+    0 $accept: statement $end .
+
+    $default  accept
+
+
+state 5
+
+   16 exp: LETTER .
+
+    $default  reduce using rule 16 (exp)
+
+
+state 6
+
+   15 exp: NUMBER .
+
+    $default  reduce using rule 15 (exp)
+
+
+state 7
+
+   14 exp: '(' . exp ')'
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 9
+
+
+state 8
+
+    1 statement: LETTER '=' exp . ';'
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    OR   shift, and go to state 10
+    AND  shift, and go to state 11
+    EQ   shift, and go to state 12
+    NE   shift, and go to state 13
+    LE   shift, and go to state 14
+    GE   shift, and go to state 15
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+    ';'  shift, and go to state 22
+
+
+state 9
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+   14    | '(' exp . ')'
+
+    OR   shift, and go to state 10
+    AND  shift, and go to state 11
+    EQ   shift, and go to state 12
+    NE   shift, and go to state 13
+    LE   shift, and go to state 14
+    GE   shift, and go to state 15
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+    ')'  shift, and go to state 23
+
+
+state 10
+
+    9 exp: exp OR . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 24
+
+
+state 11
+
+    8 exp: exp AND . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 25
+
+
+state 12
+
+   13 exp: exp EQ . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 26
+
+
+state 13
+
+   12 exp: exp NE . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 27
+
+
+state 14
+
+   11 exp: exp LE . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 28
+
+
+state 15
+
+   10 exp: exp GE . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 29
+
+
+state 16
+
+    6 exp: exp '<' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 30
+
+
+state 17
+
+    7 exp: exp '>' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 31
+
+
+state 18
+
+    2 exp: exp '+' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 32
+
+
+state 19
+
+    3 exp: exp '-' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 33
+
+
+state 20
+
+    4 exp: exp '/' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 34
+
+
+state 21
+
+    5 exp: exp '*' . exp
+
+    LETTER  shift, and go to state 5
+    NUMBER  shift, and go to state 6
+    '('     shift, and go to state 7
+
+    exp  go to state 35
+
+
+state 22
+
+    1 statement: LETTER '=' exp ';' .
+
+    $default  reduce using rule 1 (statement)
+
+
+state 23
+
+   14 exp: '(' exp ')' .
+
+    $default  reduce using rule 14 (exp)
+
+
+state 24
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+    9    | exp OR exp .
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    AND  shift, and go to state 11
+    EQ   shift, and go to state 12
+    NE   shift, and go to state 13
+    LE   shift, and go to state 14
+    GE   shift, and go to state 15
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 9 (exp)
+
+
+state 25
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    8    | exp AND exp .
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    EQ   shift, and go to state 12
+    NE   shift, and go to state 13
+    LE   shift, and go to state 14
+    GE   shift, and go to state 15
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 8 (exp)
+
+
+state 26
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+   13    | exp EQ exp .
+
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 13 (exp)
+
+
+state 27
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   12    | exp NE exp .
+   13    | exp . EQ exp
+
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 12 (exp)
+
+
+state 28
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   11    | exp LE exp .
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 11 (exp)
+
+
+state 29
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   10    | exp GE exp .
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '<'  shift, and go to state 16
+    '>'  shift, and go to state 17
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 10 (exp)
+
+
+state 30
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    6    | exp '<' exp .
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 6 (exp)
+
+
+state 31
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    7    | exp '>' exp .
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '+'  shift, and go to state 18
+    '-'  shift, and go to state 19
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 7 (exp)
+
+
+state 32
+
+    2 exp: exp . '+' exp
+    2    | exp '+' exp .
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 2 (exp)
+
+
+state 33
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    3    | exp '-' exp .
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    '/'  shift, and go to state 20
+    '*'  shift, and go to state 21
+
+    $default  reduce using rule 3 (exp)
+
+
+state 34
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    4    | exp '/' exp .
+    5    | exp . '*' exp
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    $default  reduce using rule 4 (exp)
+
+
+state 35
+
+    2 exp: exp . '+' exp
+    3    | exp . '-' exp
+    4    | exp . '/' exp
+    5    | exp . '*' exp
+    5    | exp '*' exp .
+    6    | exp . '<' exp
+    7    | exp . '>' exp
+    8    | exp . AND exp
+    9    | exp . OR exp
+   10    | exp . GE exp
+   11    | exp . LE exp
+   12    | exp . NE exp
+   13    | exp . EQ exp
+
+    $default  reduce using rule 5 (exp)

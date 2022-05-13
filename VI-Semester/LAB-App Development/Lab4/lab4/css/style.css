@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  background-image: url(images/bookstore.jpg);
+  width: 100%;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  /*padding: 40px;*/
+  border-radius: 10px;
+  font-size: 20px;
+}

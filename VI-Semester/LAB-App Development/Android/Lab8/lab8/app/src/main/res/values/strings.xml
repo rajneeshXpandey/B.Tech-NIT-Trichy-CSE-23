@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCamera</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="recording">Recording</string>
+    <string name="saved_image">Saved image</string>
+    <string name="saved_video">Saved video</string>
+    <string name="recording_start">Recording started</string>
+    <string name="recording_pause">Recording paused</string>
+</resources>

@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Welcome to login</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+  </head>
+   <script>
+    var request;
+    function sendInfo(){
+
+      var loginid= document.loginf.loginid.value;  
+      var password= document.loginf.password.value; 
+ 
+      var rooturl="login.jsp?loginid="+loginid+"&password="+password;
+      
+      if(window.XMLHttpRequest){  
+          request=new XMLHttpRequest();  
+      }  
+      else if(window.ActiveXObject){  
+          request=new ActiveXObject("Microsoft.XMLHTTP");  
+      }  
+        
+      try{  
+        request.onreadystatechange=getInfo;  
+        request.open("GET",rooturl,true);  
+        request.send();
+      }catch(e){alert("Unable to connect to server");}  
+    }  
+    function getInfo(){  
+      if(request.readyState==4){  
+        var val=request.responseText;  
+        document.getElementById('result').innerHTML=val;  
+      }  
+    } 
+  </script>
+<body>
+      <br>
+      <h2>Login</h2>
+      <form name="loginf">
+          <label for="username">Username: </label>
+          <input type="text" class="form__input" name="loginid" id="loginid"> 
+        
+          <label for="pass">Password: </label>
+          <input type="password" class="form__input" name="password" id="password">
+
+          <div align="center">
+            <input id="clickMe" type="button" value="Login" onclick="sendInfo();" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="Clear" name="button2" />
+          </div>
+     </form>
+      <div id="result"></div>
+  
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+body{  
+  font-family: Fantasque Sans Mono,Jetbrains mono, Helvetica, sans-serif;
+}
+table {
+  font-family: Fantasque Sans Mono,Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+
+#button {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+table div {
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+}
+
+table div {
+  display: flex;
+  justify-content: space-between;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}

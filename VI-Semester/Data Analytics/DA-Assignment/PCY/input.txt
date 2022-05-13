@@ -1,0 +1,10 @@
+baby-powder,bread,umbrella,diaper,beer
+baby-powder,milk,umbrella,diaper
+diaper,beer
+baby-powder,milk,bread
+milk,detergent,umbrella,baby-powder,diaper,bread
+diaper,detergent,bread,milk,coca-cola,umbrella
+baby-powder,paper-towels,diaper,cookies,chips,detergent,bread
+beer
+bread,beer,diaper,coca-cola,baby-powder
+beer,diaper

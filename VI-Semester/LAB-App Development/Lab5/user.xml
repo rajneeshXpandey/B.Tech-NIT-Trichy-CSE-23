@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<userlist>
+    <user>
+        <userid>usr01</userid>
+        <username>Gouse</username>
+        <address>DSNR</address>
+        <phone>8801550101</phone>
+        <email>Gouse.sheikh@gmail.com</email>
+    </user>
+    <user>
+        <userid>usr02</userid>
+        <username>D Divakar</username>
+        <address>Ameerpet</address>
+        <phone>9888888888</phone>
+        <email>D Divakar@gmail.com</email>
+    </user>
+    <user>
+        <userid>usr03</userid>
+        <username>Rajinth</username>
+        <address>SR Nagar</address>
+        <phone>9866666666</phone>
+        <email>Rajinth@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr04</userid>
+        <username>M Vijaya</username>
+        <address>DESHMUKHI</address>
+        <phone>9835994445</phone>
+        <email>M Vijaya@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr05</userid>
+        <username>Kusuma</username>
+        <address>KOTI</address>
+        <phone>968877555</phone>
+        <email>Kusuma@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr06</userid>
+        <username>P Kalpana</username>
+        <address>KOTI</address>
+        <phone>968875554</phone>
+        <email>P Kalpana@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr07</userid>
+        <username>V Anitha</username>
+        <address>KPHB</address>
+        <phone>968888554</phone>
+        <email>V Anitha@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr08</userid>
+        <username>M Ramesh</username>
+        <address>IBP</address>
+        <phone>968878554</phone>
+        <email>M Ramesh@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr09</userid>
+        <username>Raswitha</username>
+        <address>DSNGR</address>
+        <phone>968899554</phone>
+        <email>Raswitha@yahoo.com</email>
+    </user>
+    <user>
+        <userid>usr10</userid>
+        <username>A Prasanna</username>
+        <address>KPHB</address>
+        <phone>9088008554</phone>
+        <email>A Prasanna@yahoo.com</email>
+    </user>
+</userlist>
