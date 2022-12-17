@@ -1,0 +1,6554 @@
+1	i
+2	like
+3	chinese
+4	food
+5	uh
+6	could
+7	you
+8	make
+9	me
+10	some
+11	proposals
+12	.
+
+1	um
+2	i
+3	would
+4	like
+5	to
+6	go
+7	for
+8	dinner
+9	tonight
+10	to
+11	chinese
+12	restaurant
+13	.
+
+1	not
+2	too
+3	much
+4	maybe
+5	between
+6	five
+7	and
+8	eight
+9	dollars
+10	per
+11	person
+12	.
+
+1	i
+2	have
+3	a
+4	car
+5	so
+6	i
+7	do
+8	n't
+9	care
+10	.
+
+1	tell
+2	me
+3	more
+4	about
+5	oriental
+6	food
+7	to
+8	go
+9	.
+
+1	uh
+2	i
+3	would
+4	like
+5	to
+6	have
+7	sushi
+8	today
+9	for
+10	lunch
+11	.
+
+1	i
+2	do
+3	not
+4	know
+5	i
+6	do
+7	not
+8	want
+9	to
+10	know
+11	anything
+12	more
+13	about
+14	chinese
+15	restaurants
+16	i
+17	want
+18	to
+19	know
+20	about
+21	sushi
+22	.
+
+1	do
+2	you
+3	know
+4	about
+5	a
+6	place
+7	called
+8	sushi
+9	-
+10	ko
+11	.
+
+1	uh
+2	i
+3	guess
+4	the
+5	french
+6	cuisine
+7	is
+8	the
+9	best
+10	all
+11	over
+12	the
+13	world
+14	do
+15	you
+16	have
+17	something
+18	appropriate
+19	for
+20	me
+21	.
+
+1	please
+2	show
+3	me
+4	french
+5	restaurants
+6	in
+7	berkeley
+8	.
+
+1	i
+2	would
+3	like
+4	to
+5	go
+6	for
+7	dinner
+8	tomorrow
+9	night
+10	to
+11	a
+12	french
+13	restaurant
+14	.
+
+1	i
+2	would
+3	spend
+4	until
+5	twenty
+6	dollars
+7	per
+8	person
+9	and
+10	it
+11	should
+12	be
+13	.
+
+1	should
+2	be
+3	in
+4	driving
+5	distance
+6	.
+
+1	tell
+2	me
+3	more
+4	about
+5	that
+6	la
+7	tour
+8	eiffel
+9	.
+
+1	what
+2	can
+3	you
+4	tell
+5	me
+6	about
+7	i
+8	think
+9	it
+10	was
+11	called
+12	uh
+13	metropole
+14	.
+
+1	give
+2	me
+3	the
+4	list
+5	of
+6	all
+7	french
+8	restaurants
+9	in
+10	berkeley
+11	.
+
+1	i
+2	want
+3	to
+4	to
+5	eat
+6	european
+7	food
+8	.
+
+1	let
+2	's
+3	say
+4	up
+5	to
+6	fifteen
+7	dollar
+8	.
+
+1	i
+2	want
+3	to
+4	travel
+5	up
+6	to
+7	three
+8	kilometers
+9	.
+
+1	tell
+2	me
+3	a
+4	little
+5	bit
+6	more
+7	about
+8	nadine's
+9	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	restaurant
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	american
+7	food
+8	.
+
+1	i
+2	want
+3	to
+4	do
+5	it
+6	in
+7	the
+8	evening
+9	.
+
+1	up
+2	to
+3	ten
+4	dollar
+5	.
+
+1	give
+2	me
+3	a
+4	little
+5	bit
+6	more
+7	information
+8	about
+9	top
+10	dog
+11	.
+
+1	i
+2	want
+3	to
+4	go
+5	for
+6	breakfast
+7	in
+8	the
+9	surroundings
+10	of
+11	the
+12	icsi
+13	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	mexican
+7	.
+
+1	up
+2	to
+3	twenty
+4	dollar
+5	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	european
+7	breakfast
+8	.
+
+1	it
+2	could
+3	be
+4	in
+5	a
+6	surrounding
+7	of
+8	five
+9	kilometers
+10	.
+
+1	i
+2	want
+3	to
+4	eat
+5	lunch
+6	today
+7	.
+
+1	i
+2	want
+3	to
+4	eat
+5	dinner
+6	on
+7	sunday
+8	evening
+9	.
+
+1	money
+2	is
+3	no
+4	object
+5	.
+
+1	since
+2	i
+3	have
+4	a
+5	car
+6	travel
+7	distance
+8	is
+9	not
+10	important
+11	.
+
+1	are
+2	there
+3	any
+4	chinese
+5	restaurants
+6	within
+7	walking
+8	distance
+9	of
+10	icsi
+11	.
+
+1	in
+2	the
+3	early
+4	evening
+5	.
+
+1	not
+2	more
+3	than
+4	ten
+5	dollars
+6	.
+
+1	do
+2	any
+3	of
+4	the
+5	restaurants
+6	on
+7	this
+8	list
+9	serve
+10	vegetarian
+11	food
+12	.
+
+1	does
+2	hong
+3	-
+4	kong
+5	villa
+6	serve
+7	spicy
+8	szechuan
+9	cuisine
+10	.
+
+1	are
+2	any
+3	of
+4	the
+5	restaurants
+6	on
+7	the
+8	list
+9	open
+10	in
+11	the
+12	morning
+13	.
+
+1	list
+2	me
+3	all
+4	the
+5	german
+6	restaurants
+7	in
+8	berkeley
+9	.
+
+1	my
+2	in-laws
+3	will
+4	visit
+5	me
+6	next
+7	weekend
+8	and
+9	i
+10	would
+11	like
+12	to
+13	take
+14	them
+15	to
+16	a
+17	indian
+18	restaurant
+19	uh
+20	any
+21	suggestions
+22	.
+
+1	it
+2	should
+3	preferably
+4	be
+5	within
+6	walking
+7	distance
+8	.
+
+1	which
+2	of
+3	these
+4	two
+5	restaurants
+6	serves
+7	uh
+8	southern
+9	indian
+10	cuisine
+11	.
+
+1	show
+2	me
+3	the
+4	list
+5	again
+6	.
+
+1	do
+2	you
+3	know
+4	of
+5	any
+6	restaurants
+7	that
+8	serve
+9	pickled
+10	pigs
+11	feet
+12	.
+
+1	how
+2	about
+3	boiled
+4	pigs
+5	feet
+6	that
+7	's
+8	a
+9	german
+10	delicacy
+11	.
+
+1	can
+2	you
+3	at
+4	least
+5	list
+6	the
+7	nationality
+8	of
+9	these
+10	restaurants
+11	.
+
+1	my
+2	wedding
+3	anniversary
+4	is
+5	coming
+6	up
+7	and
+8	i
+9	would
+10	like
+11	a
+12	list
+13	of
+14	the
+15	really
+16	fancy
+17	restaurants
+18	.
+
+1	the
+2	kind
+3	of
+4	food
+5	does
+6	n't
+7	matter
+8	as
+9	long
+10	as
+11	it
+12	is
+13	expensive
+14	.
+
+1	this
+2	saturday
+3	night
+4	.
+
+1	distance
+2	does
+3	n't
+4	matter
+5	we
+6	're
+7	gon
+8	na
+9	take
+10	a
+11	chauffeured
+12	limousine
+13	.
+
+1	please
+2	list
+3	only
+4	those
+5	restaurants
+6	in
+7	the
+8	highest
+9	price
+10	category
+11	.
+
+1	can
+2	you
+3	give
+4	me
+5	some
+6	more
+7	information
+8	on
+9	the
+10	metropole
+11	restaurant
+12	.
+
+1	can
+2	you
+3	give
+4	me
+5	some
+6	more
+7	information
+8	on
+9	the
+10	metropole
+11	restaurant
+12	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	cuban
+8	food
+9	not
+10	to
+11	spend
+12	more
+13	than
+14	twenty
+15	five
+16	dollars
+17	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	russian
+8	food
+9	and
+10	not
+11	spend
+12	more
+13	than
+14	ten
+15	dollars
+16	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	this
+7	late
+8	afternoon
+9	.
+
+1	i
+2	would
+3	like
+4	not
+5	to
+6	travel
+7	more
+8	than
+9	a
+10	mile
+11	away
+12	from
+13	here
+14	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	russian
+8	food
+9	.
+
+1	tell
+2	me
+3	something
+4	about
+5	petrouchka
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	some
+7	uh
+8	fish
+9	food
+10	for
+11	dinner
+12	and
+13	um
+14	i
+15	'm
+16	not
+17	really
+18	sure
+19	what
+20	type
+21	of
+22	restaurant
+23	it
+24	should
+25	be
+26	whether
+27	or
+28	.
+
+1	like
+2	to
+3	i
+4	would
+5	like
+6	to
+7	um
+8	eat
+9	tonight
+10	um
+11	at
+12	seven
+13	o'clock
+14	p__m
+15	approximately
+16	.
+
+1	like
+2	to
+3	i
+4	would
+5	like
+6	to
+7	um
+8	eat
+9	tonight
+10	um
+11	at
+12	seven
+13	o'clock
+14	p__m
+15	approximately
+16	.
+
+1	uh
+2	something
+3	in
+4	the
+5	medium
+6	range
+7	let
+8	's
+9	say
+10	about
+11	twenty
+12	twenty
+13	five
+14	dollars
+15	per
+16	person
+17	.
+
+1	oh
+2	um
+3	how
+4	far
+5	from
+6	icsi
+7	um
+8	somewhere
+9	either
+10	in
+11	walking
+12	distance
+13	or
+14	where
+15	i
+16	can
+17	take
+18	uh
+19	.
+
+1	could
+2	you
+3	please
+4	give
+5	us
+6	some
+7	more
+8	information
+9	on
+10	gertie's
+11	.
+
+1	uh
+2	i
+3	would
+4	like
+5	to
+6	go
+7	for
+8	lunch
+9	uh
+10	to
+11	some
+12	mexican
+13	place
+14	.
+
+1	well
+2	uh
+3	not
+4	very
+5	much
+6	something
+7	in
+8	the
+9	up
+10	to
+11	ten
+12	dollar
+13	range
+14	.
+
+1	uh
+2	actually
+3	i
+4	have
+5	a
+6	car
+7	available
+8	now
+9	so
+10	my
+11	friend
+12	can
+13	take
+14	me
+15	to
+16	um
+17	anywhere
+18	within
+19	the
+20	east
+21	bay
+22	area
+23	.
+
+1	i
+2	have
+3	n't
+4	yet
+5	tried
+6	cactus
+7	taqueria
+8	so
+9	could
+10	you
+11	please
+12	give
+13	me
+14	um
+15	some
+16	additional
+17	information
+18	on
+19	it
+20	.
+
+1	uh
+2	thank
+3	you
+4	for
+5	this
+6	information
+7	but
+8	could
+9	you
+10	please
+11	tell
+12	me
+13	if
+14	they
+15	uh
+16	serve
+17	alcohol
+18	or
+19	not
+20	.
+
+1	could
+2	i
+3	please
+4	see
+5	a
+6	list
+7	of
+8	um
+9	mexican
+10	restaurants
+11	that
+12	i
+13	asked
+14	for
+15	before
+16	.
+
+1	could
+2	you
+3	possibly
+4	recommend
+5	any
+6	place
+7	yourself
+8	.
+
+1	thank
+2	you
+3	very
+4	much
+5	and
+6	goodbye
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	some
+7	indian
+8	food
+9	tonight
+10	.
+
+1	less
+2	than
+3	twelve
+4	dollars
+5	a
+6	head
+7	.
+
+1	less
+2	than
+3	twelve
+4	dollars
+5	a
+6	head
+7	.
+
+1	i
+2	do
+3	n't
+4	really
+5	care
+6	.
+
+1	i
+2	'd
+3	like
+4	to
+5	take
+6	a
+7	friend
+8	for
+9	some
+10	vietnamese
+11	lunch
+12	today
+13	.
+
+1	less
+2	than
+3	twenty
+4	four
+5	dollars
+6	total
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	take
+6	my
+7	father
+8	for
+9	an
+10	expensive
+11	french
+12	dinner
+13	tonight
+14	.
+
+1	i
+2	do
+3	n't
+4	care
+5	.
+
+1	show
+2	me
+3	more
+4	about
+5	the
+6	metropole
+7	.
+
+1	show
+2	me
+3	all
+4	the
+5	thai
+6	restaurants
+7	in
+8	berkeley
+9	.
+
+1	show
+2	me
+3	more
+4	on
+5	siam
+6	cuisine
+7	.
+
+1	hi
+2	i
+3	would
+4	like
+5	some
+6	thai
+7	food
+8	.
+
+1	i
+2	want
+3	to
+4	get
+5	some
+6	lunch
+7	.
+
+1	i
+2	would
+3	like
+4	some
+5	mexican
+6	food
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	thai
+8	food
+9	.
+
+1	thai
+2	food
+3	.
+
+1	tuesday
+2	.
+
+1	i
+2	want
+3	some
+4	mexican
+5	food
+6	.
+
+1	monday
+2	.
+
+1	i
+2	want
+3	to
+4	go
+5	on
+6	tuesday
+7	.
+
+1	are
+2	you
+3	reading
+4	me
+5	.
+
+1	on
+2	tuesday
+3	.
+
+1	tomorrow
+2	.
+
+1	thursday
+2	.
+
+1	or
+2	wednesday
+3	but
+4	not
+5	saturday
+6	.
+
+1	i
+2	would
+3	like
+4	some
+5	thai
+6	food
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	on
+7	tuesday
+8	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	on
+7	saturday
+8	.
+
+1	dinner
+2	.
+
+1	i
+2	do
+3	n't
+4	have
+5	a
+6	lot
+7	of
+8	time
+9	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	on
+7	tuesday
+8	.
+
+1	i
+2	want
+3	some
+4	cheap
+5	food
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	lunch
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	dinner
+7	.
+
+1	and
+2	i
+3	do
+4	n't
+5	want
+6	to
+7	spend
+8	a
+9	lot
+10	of
+11	money
+12	.
+
+1	fifteen
+2	minutes
+3	and
+4	i
+5	need
+6	cheap
+7	food
+8	.
+
+1	sunday
+2	.
+
+1	none
+2	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	spend
+7	much
+8	.
+
+1	not
+2	fast
+3	food
+4	.
+
+1	i
+2	want
+3	to
+4	eat
+5	this
+6	afternoon
+7	.
+
+1	very
+2	little
+3	.
+
+1	any
+2	amount
+3	of
+4	distance
+5	.
+
+1	and
+2	i
+3	do
+4	n't
+5	want
+6	to
+7	go
+8	to
+9	sizzler
+10	.
+
+1	i
+2	want
+3	some
+4	thai
+5	food
+6	.
+
+1	not
+2	much
+3	.
+
+1	breakfast
+2	lunch
+3	or
+4	dinner
+5	is
+6	okay
+7	.
+
+1	do
+2	you
+3	mean
+4	by
+5	bike
+6	walking
+7	or
+8	car
+9	.
+
+1	i
+2	like
+3	thai
+4	mexican
+5	italian
+6	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	to
+8	any
+9	burger
+10	places
+11	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	anywhere
+8	that
+9	's
+10	further
+11	than
+12	fifteen
+13	minutes
+14	away
+15	on
+16	a
+17	bike
+18	.
+
+1	i
+2	would
+3	invite
+4	you
+5	to
+6	go
+7	with
+8	me
+9	but
+10	i
+11	think
+12	you
+13	'd
+14	be
+15	horrible
+16	company
+17	.
+
+1	unless
+2	of
+3	course
+4	the
+5	service
+6	is
+7	really
+8	slow
+9	no
+10	offense
+11	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	outside
+8	of
+9	the
+10	bay
+11	area
+12	.
+
+1	and
+2	i
+3	do
+4	n't
+5	ever
+6	wan
+7	na
+8	spend
+9	more
+10	than
+11	forty
+12	dollars
+13	on
+14	a
+15	meal
+16	.
+
+1	usually
+2	i
+3	like
+4	to
+5	spend
+6	between
+7	two
+8	dollars
+9	and
+10	ten
+11	dollars
+12	.
+
+1	i
+2	does
+3	n't
+4	have
+5	to
+6	be
+7	fancy
+8	but
+9	no
+10	bugs
+11	.
+
+1	carl's
+2	-
+3	jr
+4	.
+
+1	is
+2	okay
+3	though
+4	good
+5	zucchini
+6	fries
+7	.
+
+1	by
+2	the
+3	way
+4	i
+5	am
+6	a
+7	vegetarian
+8	.
+
+1	enjoy
+2	all
+3	of
+4	your
+5	dining
+6	experiences
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	american
+7	food
+8	.
+
+1	hi
+2	i
+3	would
+4	like
+5	to
+6	eat
+7	some
+8	american
+9	food
+10	.
+
+1	saturday
+2	or
+3	any
+4	day
+5	on
+6	the
+7	weekend
+8	.
+
+1	american
+2	food
+3	american
+4	californian
+5	.
+
+1	american
+2	food
+3	american
+4	californian
+5	.
+
+1	i
+2	am
+3	willing
+4	to
+5	travel
+6	any
+7	distance
+8	from
+9	icksee
+10	.
+
+1	any
+2	distance
+3	.
+
+1	it
+2	should
+3	cost
+4	less
+5	than
+6	twenty
+7	five
+8	dollars
+9	per
+10	person
+11	.
+
+1	twenty
+2	minutes
+3	walking
+4	distance
+5	.
+
+1	it
+2	should
+3	cost
+4	less
+5	than
+6	fifteen
+7	dollar
+8	per
+9	person
+10	.
+
+1	twenty
+2	minutes
+3	walking
+4	distance
+5	.
+
+1	hello
+2	i
+3	would
+4	like
+5	to
+6	eat
+7	some
+8	italian
+9	food
+10	.
+
+1	and
+2	it
+3	's
+4	gon
+5	na
+6	be
+7	a
+8	dinner
+9	.
+
+1	italian
+2	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	italian
+8	food
+9	.
+
+1	italian
+2	you
+3	know
+4	spaghetti
+5	pizza
+6	.
+
+1	any
+2	day
+3	but
+4	i
+5	would
+6	like
+7	also
+8	to
+9	eat
+10	some
+11	other
+12	thing
+13	either
+14	than
+15	pizza
+16	like
+17	spaghetti
+18	.
+
+1	the
+2	distance
+3	is
+4	not
+5	important
+6	.
+
+1	dinner
+2	.
+
+1	i
+2	have
+3	the
+4	car
+5	so
+6	i
+7	can
+8	go
+9	whenever
+10	.
+
+1	i
+2	have
+3	the
+4	car
+5	so
+6	i
+7	can
+8	go
+9	whenever
+10	.
+
+1	dinner
+2	.
+
+1	it
+2	must
+3	be
+4	on
+5	the
+6	weekend
+7	friday
+8	night
+9	or
+10	saturday
+11	night
+12	.
+
+1	dinner
+2	in
+3	the
+4	evening
+5	after
+6	six
+7	.
+
+1	if
+2	i
+3	go
+4	lunch
+5	it
+6	's
+7	any
+8	weekday
+9	if
+10	i
+11	go
+12	dinner
+13	it
+14	's
+15	only
+16	on
+17	the
+18	weekend
+19	.
+
+1	it
+2	must
+3	be
+4	good
+5	food
+6	i
+7	'm
+8	not
+9	interested
+10	in
+11	exactly
+12	what
+13	.
+
+1	show
+2	me
+3	the
+4	best
+5	restaurant
+6	around
+7	.
+
+1	show
+2	me
+3	the
+4	best
+5	restaurant
+6	around
+7	.
+
+1	tonight
+2	for
+3	dinner
+4	.
+
+1	any
+2	price
+3	i
+4	am
+5	not
+6	interested
+7	in
+8	price
+9	now
+10	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	some
+7	mexican
+8	food
+9	.
+
+1	i
+2	'm
+3	interested
+4	in
+5	having
+6	some
+7	mexican
+8	food
+9	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	some
+7	italian
+8	food
+9	.
+
+1	oh
+2	i
+3	do
+4	n't
+5	know
+6	how
+7	about
+8	something
+9	like
+10	next
+11	thursday
+12	.
+
+1	i
+2	'd
+3	prefer
+4	to
+5	eat
+6	on
+7	tuesday
+8	or
+9	wednesday
+10	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	on
+7	friday
+8	afternoon
+9	.
+
+1	mexican
+2	food
+3	please
+4	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	spend
+7	more
+8	any
+9	more
+10	than
+11	fifteen
+12	dollars
+13	.
+
+1	i
+2	never
+3	eat
+4	lunch
+5	so
+6	i
+7	would
+8	like
+9	to
+10	eat
+11	dinner
+12	.
+
+1	tuesday
+2	.
+
+1	i
+2	usually
+3	do
+4	n't
+5	eat
+6	lunch
+7	so
+8	breakfast
+9	would
+10	be
+11	better
+12	for
+13	me
+14	.
+
+1	i
+2	'd
+3	prefer
+4	dinner
+5	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	walk
+7	farther
+8	than
+9	one
+10	mile
+11	from
+12	here
+13	.
+
+1	no
+2	more
+3	than
+4	ten
+5	dollars
+6	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	both
+7	indian
+8	and
+9	italian
+10	food
+11	.
+
+1	i
+2	'd
+3	like
+4	my
+5	italian
+6	food
+7	to
+8	be
+9	to
+10	cost
+11	no
+12	more
+13	than
+14	ten
+15	dollars
+16	.
+
+1	how
+2	about
+3	breakfast
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	indo
+7	-
+8	european
+9	food
+10	.
+
+1	well
+2	i
+3	'm
+4	uh
+5	on
+6	a
+7	strict
+8	budget
+9	right
+10	now
+11	and
+12	would
+13	n't
+14	want
+15	to
+16	spend
+17	any
+18	less
+19	than
+20	ten
+21	thousand
+22	dollars
+23	.
+
+1	is
+2	there
+3	any
+4	place
+5	close
+6	to
+7	the
+8	water
+9	.
+
+1	do
+2	you
+3	know
+4	of
+5	any
+6	antarctican
+7	restaurants
+8	.
+
+1	how
+2	about
+3	senegalese
+4	food
+5	.
+
+1	i
+2	'd
+3	like
+4	to
+5	either
+6	tuesday
+7	wednesday
+8	or
+9	thursday
+10	it
+11	does
+12	n't
+13	matter
+14	but
+15	not
+16	saturday
+17	and
+18	not
+19	friday
+20	.
+
+1	is
+2	there
+3	anything
+4	on
+5	cedar
+6	street
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	no
+7	less
+8	than
+9	ten
+10	feet
+11	off
+12	the
+13	ground
+14	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	russian
+7	food
+8	.
+
+1	how
+2	about
+3	pizza
+4	.
+
+1	i
+2	do
+3	n't
+4	want
+5	any
+6	food
+7	i
+8	would
+9	like
+10	to
+11	have
+12	a
+13	new
+14	car
+15	instead
+16	.
+
+1	hi
+2	can
+3	i
+4	uh
+5	have
+6	some
+7	thai
+8	food
+9	please
+10	.
+
+1	hello
+2	i
+3	would
+4	like
+5	to
+6	make
+7	a
+8	reservation
+9	at
+10	a
+11	chinese
+12	restaurant
+13	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	a
+7	mexican
+8	restaurant
+9	.
+
+1	chinese
+2	food
+3	.
+
+1	hi
+2	i
+3	would
+4	like
+5	to
+6	eat
+7	some
+8	thai
+9	food
+10	.
+
+1	hi
+2	i
+3	would
+4	like
+5	a
+6	reservation
+7	for
+8	a
+9	japanese
+10	restaurant
+11	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	very
+8	far
+9	.
+
+1	hi
+2	i
+3	would
+4	like
+5	to
+6	eat
+7	some
+8	thai
+9	food
+10	.
+
+1	i
+2	can
+3	only
+4	spend
+5	ten
+6	dollars
+7	or
+8	less
+9	.
+
+1	wednesday
+2	.
+
+1	and
+2	this
+3	will
+4	be
+5	for
+6	lunch
+7	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	chinese
+7	restaurant
+8	on
+9	wednesday
+10	.
+
+1	looking
+2	for
+3	a
+4	mexican
+5	restaurant
+6	.
+
+1	looking
+2	for
+3	a
+4	japanese
+5	restaurant
+6	.
+
+1	do
+2	n't
+3	want
+4	to
+5	have
+6	to
+7	drive
+8	very
+9	far
+10	.
+
+1	i
+2	'm
+3	willing
+4	to
+5	spend
+6	from
+7	five
+8	to
+9	ten
+10	dollars
+11	.
+
+1	and
+2	this
+3	will
+4	be
+5	on
+6	sunday
+7	.
+
+1	looking
+2	for
+3	a
+4	restaurant
+5	that
+6	serves
+7	chinese
+8	food
+9	.
+
+1	but
+2	it
+3	has
+4	to
+5	cost
+6	less
+7	than
+8	twenty
+9	dollars
+10	.
+
+1	i
+2	will
+3	be
+4	going
+5	on
+6	thursday
+7	.
+
+1	i
+2	will
+3	be
+4	going
+5	on
+6	thursday
+7	.
+
+1	and
+2	this
+3	will
+4	be
+5	for
+6	dinner
+7	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	an
+7	italian
+8	restaurant
+9	.
+
+1	it
+2	has
+3	to
+4	be
+5	within
+6	ten
+7	miles
+8	from
+9	here
+10	.
+
+1	um
+2	preferably
+3	uh
+4	inexpensive
+5	restaurant
+6	.
+
+1	for
+2	saturday
+3	.
+
+1	and
+2	it
+3	will
+4	be
+5	for
+6	dinner
+7	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	a
+7	french
+8	restaurant
+9	.
+
+1	it
+2	will
+3	be
+4	for
+5	dinner
+6	next
+7	week
+8	.
+
+1	it
+2	can
+3	be
+4	very
+5	expensive
+6	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	a
+7	korean
+8	restaurant
+9	.
+
+1	it
+2	will
+3	be
+4	for
+5	lunch
+6	.
+
+1	and
+2	i
+3	'm
+4	going
+5	to
+6	go
+7	tomorrow
+8	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	a
+7	place
+8	to
+9	eat
+10	on
+11	thursday
+12	.
+
+1	preferably
+2	japanese
+3	food
+4	.
+
+1	i
+2	can
+3	only
+4	walk
+5	ten
+6	minutes
+7	or
+8	so
+9	.
+
+1	hi
+2	i
+3	'm
+4	looking
+5	for
+6	spanish
+7	restaurant
+8	.
+
+1	and
+2	it
+3	has
+4	to
+5	be
+6	within
+7	twenty
+8	minutes
+9	driving
+10	distance
+11	.
+
+1	looking
+2	for
+3	a
+4	american
+5	restaurant
+6	.
+
+1	and
+2	i
+3	'm
+4	willing
+5	to
+6	drive
+7	ten
+8	miles
+9	.
+
+1	and
+2	uh
+3	it
+4	should
+5	cost
+6	less
+7	than
+8	five
+9	dollars
+10	.
+
+1	i
+2	want
+3	to
+4	spend
+5	twenty
+6	dollars
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	lunch
+7	.
+
+1	go
+2	tonight
+3	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	spend
+7	more
+8	than
+9	ten
+10	dollars
+11	.
+
+1	have
+2	dinner
+3	.
+
+1	have
+2	dinner
+3	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	too
+8	far
+9	.
+
+1	what
+2	about
+3	a
+4	thai
+5	restaurant
+6	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	go
+7	too
+8	far
+9	.
+
+1	near
+2	from
+3	icsi
+4	.
+
+1	not
+2	too
+3	far
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	breakfast
+7	.
+
+1	on
+2	sunday
+3	afternoon
+4	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	travel
+7	very
+8	much
+9	.
+
+1	to
+2	have
+3	lunch
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	spanish
+7	food
+8	.
+
+1	like
+2	to
+3	have
+4	lunch
+5	.
+
+1	in
+2	berkeley
+3	.
+
+1	i
+2	want
+3	to
+4	have
+5	dinner
+6	.
+
+1	on
+2	monday
+3	evening
+4	.
+
+1	i
+2	want
+3	to
+4	eat
+5	italian
+6	food
+7	.
+
+1	to
+2	have
+3	.
+
+1	i
+2	'd
+3	like
+4	to
+5	go
+6	tomorrow
+7	night
+8	.
+
+1	no
+2	more
+3	than
+4	twenty
+5	dollars
+6	.
+
+1	in
+2	the
+3	bay
+4	area
+5	.
+
+1	no
+2	more
+3	than
+4	twenty
+5	dollars
+6	.
+
+1	on
+2	friday
+3	.
+
+1	to
+2	have
+3	dinner
+4	.
+
+1	i
+2	want
+3	to
+4	go
+5	to
+6	have
+7	uh
+8	dinner
+9	.
+
+1	not
+2	expensive
+3	.
+
+1	on
+2	thursday
+3	evening
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	breakfast
+7	.
+
+1	in
+2	a
+3	french
+4	restaurant
+5	.
+
+1	very
+2	far
+3	.
+
+1	to
+2	have
+3	lunch
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	go
+6	to
+7	a
+8	portuguese
+9	restaurant
+10	.
+
+1	in
+2	san__francisco
+3	.
+
+1	and
+2	pay
+3	twenty
+4	dollars
+5	.
+
+1	sometime
+2	next
+3	week
+4	.
+
+1	lunch
+2	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	.
+
+1	in
+2	oakland
+3	.
+
+1	not
+2	expensive
+3	.
+
+1	on
+2	wednesday
+3	.
+
+1	for
+2	dinner
+3	.
+
+1	i
+2	like
+3	to
+4	go
+5	to
+6	an
+7	american
+8	restaurant
+9	.
+
+1	in
+2	the
+3	united
+4	states
+5	.
+
+1	about
+2	ten
+3	dollars
+4	.
+
+1	on
+2	friday
+3	.
+
+1	to
+2	have
+3	breakfast
+4	.
+
+1	i
+2	'd
+3	like
+4	to
+5	go
+6	to
+7	a
+8	native
+9	american
+10	restaurant
+11	.
+
+1	in
+2	arizona
+3	.
+
+1	no
+2	more
+3	than
+4	five
+5	dollars
+6	.
+
+1	i
+2	'd
+3	like
+4	to
+5	go
+6	an
+7	ethiopian
+8	oh
+9	i
+10	'm
+11	sorry
+12	ethiopian
+13	restaurant
+14	.
+
+1	in
+2	oakland
+3	.
+
+1	about
+2	ten
+3	dollars
+4	.
+
+1	tomorrow
+2	.
+
+1	at
+2	lunch
+3	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	chinese
+7	food
+8	.
+
+1	the
+2	cost
+3	does
+4	n't
+5	matter
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	cheap
+7	food
+8	.
+
+1	i
+2	would
+3	like
+4	to
+5	have
+6	lunch
+7	today
+8	.
+
+1	friday
+2	is
+3	a
+4	good
+5	day
+6	for
+7	lunch
+8	.
+
+1	give
+2	me
+3	more
+4	information
+5	about
+6	taiwan
+7	restaurant
+8	.
+
+1	i
+2	would
+3	like
+4	to
+5	go
+6	there
+7	for
+8	dinner
+9	.
+
+1	i
+2	feel
+3	like
+4	italian
+5	food
+6	.
+
+1	i
+2	have
+3	a
+4	car
+5	so
+6	distance
+7	does
+8	n't
+9	matter
+10	.
+
+1	chinese
+2	food
+3	.
+
+1	i
+2	want
+3	to
+4	go
+5	on
+6	the
+7	weekend
+8	.
+
+1	i
+2	like
+3	mexican
+4	food
+5	.
+
+1	how
+2	about
+3	brunch
+4	.
+
+1	i
+2	like
+3	mexican
+4	food
+5	.
+
+1	give
+2	me
+3	information
+4	about
+5	a
+6	salad
+7	bar
+8	.
+
+1	i
+2	want
+3	to
+4	eat
+5	today
+6	.
+
+1	i
+2	want
+3	to
+4	eat
+5	mexican
+6	food
+7	.
+
+1	the
+2	price
+3	should
+4	be
+5	relatively
+6	inexpensive
+7	.
+
+1	only
+2	five
+3	minutes
+4	from
+5	icksee
+6	.
+
+1	the
+2	day
+3	of
+4	the
+5	week
+6	does
+7	n't
+8	matter
+9	.
+
+1	five
+2	minutes
+3	from
+4	icksee
+5	.
+
+1	i
+2	want
+3	to
+4	go
+5	there
+6	next
+7	week
+8	on
+9	saturday
+10	.
+
+1	about
+2	five
+3	dollars
+4	.
+
+1	i
+2	wish
+3	to
+4	have
+5	breakfast
+6	there
+7	.
+
+1	tell
+2	my
+3	more
+4	about
+5	ay
+6	-
+7	caramba
+8	.
+
+1	give
+2	me
+3	information
+4	about
+5	a
+6	good
+7	steak
+8	house
+9	.
+
+1	tell
+2	me
+3	more
+4	about
+5	taqueria
+6	cancun
+7	.
+
+1	do
+2	you
+3	know
+4	of
+5	any
+6	german
+7	restaurants
+8	in
+9	this
+10	area
+11	.
+
+1	give
+2	me
+3	information
+4	about
+5	taqueria
+6	cancun
+7	.
+
+1	i
+2	want
+3	to
+4	eat
+5	thai
+6	food
+7	.
+
+1	i
+2	want
+3	to
+4	eat
+5	vegetarian
+6	food
+7	.
+
+1	i
+2	would
+3	like
+4	to
+5	go
+6	out
+7	for
+8	dinner
+9	.
+
+1	tell
+2	me
+3	about
+4	cambodiana
+5	.
+
+1	i
+2	want
+3	to
+4	have
+5	indian
+6	food
+7	close
+8	to
+9	icksee
+10	and
+11	i
+12	want
+13	to
+14	have
+15	it
+16	today
+17	.
+
+1	i
+2	want
+3	cheap
+4	italian
+5	food
+6	for
+7	lunch
+8	.
+
+1	where
+2	do
+3	i
+4	find
+5	a
+6	big
+7	steak
+8	.
+
+1	do
+2	you
+3	know
+4	of
+5	a
+6	good
+7	pizza
+8	place
+9	.
+
+1	do
+2	you
+3	know
+4	of
+5	a
+6	good
+7	pizza
+8	place
+9	.
+
+1	i
+2	feel
+3	like
+4	japanese
+5	food
+6	.
+
+1	i
+2	wish
+3	to
+4	know
+5	more
+6	about
+7	chez
+8	-
+9	panisse
+10	.
+
+1	i
+2	would
+3	like
+4	to
+5	spend
+6	about
+7	fifteen
+8	dollars
+9	per
+10	person
+11	.
+
+1	i
+2	want
+3	to
+4	have
+5	lunch
+6	tomorrow
+7	at
+8	a
+9	very
+10	expensive
+11	indian
+12	restaurant
+13	.
+
+1	i
+2	would
+3	like
+4	some
+5	inexpensive
+6	greek
+7	food
+8	.
+
+1	i
+2	want
+3	some
+4	american
+5	food
+6	in
+7	berkeley
+8	.
+
+1	perhaps
+2	you
+3	can
+4	point
+5	me
+6	to
+7	a
+8	a
+9	good
+10	restaurant
+11	close
+12	by
+13	uh
+14	for
+15	tonight
+16	.
+
+1	i
+2	'm
+3	poor
+4	i
+5	'm
+6	broke
+7	and
+8	i
+9	do
+10	n't
+11	have
+12	a
+13	car
+14	so
+15	i
+16	need
+17	something
+18	nearby
+19	and
+20	very
+21	cheap
+22	.
+
+1	inexpensive
+2	not
+3	expensive
+4	.
+
+1	something
+2	uh
+3	american
+4	no
+5	greek
+6	wait
+7	no
+8	let
+9	's
+10	see
+11	i
+12	could
+13	really
+14	go
+15	for
+16	some
+17	middle
+18	eastern
+19	food
+20	.
+
+1	greek
+2	food
+3	cheap
+4	and
+5	nearby
+6	.
+
+1	um
+2	somewhere
+3	to
+4	take
+5	uh
+6	someone
+7	saturday
+8	dinner
+9	.
+
+1	some
+2	greek
+3	food
+4	.
+
+1	at
+2	places
+3	between
+4	say
+5	twenty
+6	to
+7	fifty
+8	bucks
+9	.
+
+1	a
+2	close
+3	.
+
+1	now
+2	better
+3	make
+4	that
+5	say
+6	ten
+7	to
+8	fifteen
+9	dollars
+10	actually
+11	now
+12	.
+
+1	hopefully
+2	walking
+3	distance
+4	.
+
+1	like
+2	to
+3	dine
+4	this
+5	evening
+6	.
+
+1	what
+2	do
+3	you
+4	suggest
+5	for
+6	dinner
+7	tonight
+8	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	out
+7	tonight
+8	.
+
+1	i
+2	do
+3	n't
+4	want
+5	greek
+6	or
+7	french
+8	or
+9	american
+10	.
+
+1	do
+2	you
+3	have
+4	some
+5	sort
+6	of
+7	southern
+8	cuisine
+9	.
+
+1	any
+2	middle
+3	eastern
+4	restaurants
+5	.
+
+1	for
+2	a
+3	midweek
+4	luncheon
+5	meeting
+6	.
+
+1	middle
+2	eastern
+3	food
+4	.
+
+1	no
+2	more
+3	than
+4	twenty
+5	dollars
+6	per
+7	person
+8	.
+
+1	money
+2	is
+3	no
+4	object
+5	.
+
+1	and
+2	no
+3	further
+4	than
+5	san__francisco
+6	.
+
+1	lunch
+2	on
+3	saturday
+4	.
+
+1	howbout
+2	san__francisco
+3	restaurants
+4	.
+
+1	uh
+2	maybe
+3	uh
+4	some
+5	ethiopian
+6	food
+7	.
+
+1	sunday
+2	brunch
+3	.
+
+1	five
+2	dollars
+3	or
+4	less
+5	.
+
+1	sunday
+2	dinner
+3	.
+
+1	uh
+2	about
+3	ten
+4	to
+5	fifteen
+6	dollars
+7	per
+8	person
+9	.
+
+1	why
+2	not
+3	good
+4	old
+5	american
+6	.
+
+1	the
+2	best
+3	burger
+4	in
+5	town
+6	please
+7	.
+
+1	for
+2	american
+3	food
+4	.
+
+1	somewhere
+2	close
+3	to
+4	the
+5	university
+6	and
+7	very
+8	inexpensive
+9	.
+
+1	i
+2	wan
+3	na
+4	eat
+5	right
+6	now
+7	.
+
+1	any
+2	german
+3	food
+4	on
+5	file
+6	.
+
+1	dinner
+2	for
+3	four
+4	under
+5	one
+6	hundred
+7	dollars
+8	.
+
+1	for
+2	a
+3	nice
+4	business
+5	dinner
+6	.
+
+1	can
+2	you
+3	suggest
+4	a
+5	restaurant
+6	with
+7	spicy
+8	food
+9	.
+
+1	i
+2	'll
+3	drive
+4	to
+5	san__diego
+6	if
+7	i
+8	have
+9	to
+10	.
+
+1	say
+2	about
+3	fifty
+4	bucks
+5	a
+6	pop
+7	.
+
+1	and
+2	that
+3	would
+4	be
+5	for
+6	lunch
+7	on
+8	tuesday
+9	afternoon
+10	.
+
+1	ey
+2	what
+3	do
+4	you
+5	got
+6	in
+7	the
+8	way
+9	of
+10	indian
+11	food
+12	.
+
+1	either
+2	concord
+3	or
+4	walnut__creek
+5	.
+
+1	and
+2	of
+3	course
+4	because
+5	i
+6	am
+7	a
+8	poor
+9	starving
+10	student
+11	it
+12	would
+13	have
+14	to
+15	be
+16	cheap
+17	.
+
+1	but
+2	it
+3	has
+4	to
+5	be
+6	within
+7	say
+8	fifteen
+9	miles
+10	of
+11	san__francisco
+12	for
+13	tonight
+14	.
+
+1	howbout
+2	a
+3	good
+4	brunch
+5	somewhere
+6	in
+7	berkeley
+8	.
+
+1	uh
+2	anywhere
+3	in
+4	the
+5	bay
+6	area
+7	.
+
+1	uh
+2	relatively
+3	inexpensive
+4	and
+5	for
+6	a
+7	dinner
+8	on
+9	monday
+10	.
+
+1	less
+2	than
+3	five
+4	dollars
+5	.
+
+1	late
+2	night
+3	.
+
+1	close
+2	by
+3	.
+
+1	not
+2	too
+3	far
+4	.
+
+1	close
+2	to
+3	san__francisco
+4	.
+
+1	within
+2	five
+3	miles
+4	of
+5	berkeley
+6	.
+
+1	money
+2	is
+3	no
+4	object
+5	.
+
+1	i
+2	am
+3	in
+4	the
+5	mood
+6	for
+7	szechuan
+8	chinese
+9	food
+10	.
+
+1	i
+2	feel
+3	like
+4	some
+5	chinese
+6	food
+7	.
+
+1	to
+2	eat
+3	today
+4	i
+5	'm
+6	hungry
+7	.
+
+1	hello
+2	.
+
+1	i
+2	would
+3	like
+4	szechuan
+5	food
+6	please
+7	.
+
+1	i
+2	want
+3	to
+4	eat
+5	lunch
+6	.
+
+1	well
+2	in
+3	that
+4	case
+5	how
+6	about
+7	some
+8	greek
+9	food
+10	.
+
+1	i
+2	like
+3	to
+4	walk
+5	so
+6	i
+7	could
+8	go
+9	pretty
+10	far
+11	.
+
+1	do
+2	you
+3	have
+4	anything
+5	that
+6	's
+7	pretty
+8	close
+9	to
+10	icksee
+11	.
+
+1	well
+2	i
+3	do
+4	n't
+5	care
+6	if
+7	it
+8	's
+9	szechuan
+10	um
+11	any
+12	kind
+13	of
+14	chinese
+15	is
+16	fine
+17	.
+
+1	i
+2	did
+3	not
+4	say
+5	thai
+6	i
+7	said
+8	any
+9	kind
+10	of
+11	chinese
+12	is
+13	fine
+14	.
+
+1	how
+2	about
+3	something
+4	that
+5	is
+6	pretty
+7	cheap
+8	.
+
+1	not
+2	thai
+3	.
+
+1	i
+2	feel
+3	like
+4	vegetarian
+5	pizza
+6	.
+
+1	not
+2	thai
+3	food
+4	chinese
+5	instead
+6	.
+
+1	how
+2	about
+3	some
+4	greek
+5	gyros
+6	.
+
+1	where
+2	is
+3	chez
+4	-
+5	panisse
+6	.
+
+1	in
+2	greek
+3	food
+4	.
+
+1	i
+2	do
+3	n't
+4	want
+5	chinese
+6	i
+7	want
+8	greek
+9	food
+10	.
+
+1	well
+2	thank
+3	you
+4	very
+5	much
+6	i
+7	'm
+8	gon
+9	na
+10	go
+11	eat
+12	now
+13	.
+
+1	it
+2	has
+3	to
+4	be
+5	vegetarian
+6	too
+7	.
+
+1	uh
+2	can
+3	you
+4	make
+5	it
+6	cheap
+7	.
+
+1	i
+2	said
+3	i
+4	do
+5	n't
+6	feel
+7	like
+8	pizza
+9	.
+
+1	i
+2	decided
+3	i
+4	'm
+5	in
+6	a
+7	hurry
+8	can
+9	you
+10	get
+11	some
+12	place
+13	really
+14	close
+15	.
+
+1	you
+2	know
+3	i
+4	am
+5	so
+6	hungry
+7	i
+8	do
+9	n't
+10	care
+11	what
+12	kind
+13	of
+14	food
+15	it
+16	is
+17	.
+
+1	how
+2	about
+3	some
+4	greek
+5	food
+6	.
+
+1	oh
+2	i
+3	do
+4	n't
+5	care
+6	how
+7	far
+8	it
+9	is
+10	but
+11	i
+12	want
+13	some
+14	greek
+15	food
+16	.
+
+1	any
+2	distance
+3	at
+4	all
+5	.
+
+1	um
+2	can
+3	you
+4	tell
+5	me
+6	something
+7	about
+8	mexican
+9	restaurants
+10	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	mexican
+7	.
+
+1	uh
+2	howbout
+3	on
+4	a
+5	sunday
+6	.
+
+1	lunch
+2	please
+3	.
+
+1	i
+2	said
+3	lunch
+4	.
+
+1	uh
+2	i
+3	would
+4	like
+5	it
+6	to
+7	be
+8	under
+9	ten
+10	dollars
+11	.
+
+1	uh
+2	i
+3	would
+4	like
+5	it
+6	to
+7	be
+8	under
+9	ten
+10	dollars
+11	.
+
+1	uh
+2	fifteen
+3	minute
+4	by
+5	walking
+6	.
+
+1	howbout
+2	dinner
+3	.
+
+1	chinese
+2	food
+3	please
+4	.
+
+1	sunday
+2	.
+
+1	i
+2	would
+3	like
+4	it
+5	to
+6	be
+7	for
+8	dinner
+9	.
+
+1	i
+2	would
+3	like
+4	to
+5	spend
+6	less
+7	than
+8	twenty
+9	dollars
+10	.
+
+1	within
+2	twenty
+3	minutes
+4	walking
+5	.
+
+1	twenty
+2	minutes
+3	.
+
+1	can
+2	you
+3	show
+4	me
+5	the
+6	menu
+7	.
+
+1	i
+2	said
+3	sunday
+4	.
+
+1	what
+2	do
+3	you
+4	know
+5	about
+6	won
+7	thai
+8	cuisine
+9	.
+
+1	what
+2	information
+3	do
+4	you
+5	have
+6	on
+7	cha
+8	-
+9	am
+10	.
+
+1	do
+2	you
+3	know
+4	any
+5	greek
+6	restaurant
+7	.
+
+1	i
+2	said
+3	greek
+4	restaurant
+5	.
+
+1	greek
+2	restaurants
+3	on
+4	any
+5	day
+6	.
+
+1	three
+2	miles
+3	.
+
+1	any
+2	meal
+3	.
+
+1	it
+2	does
+3	n't
+4	matter
+5	.
+
+1	the
+2	price
+3	does
+4	n't
+5	matter
+6	.
+
+1	does
+2	n't
+3	matter
+4	.
+
+1	howbout
+2	within
+3	twenty
+4	miles
+5	.
+
+1	do
+2	you
+3	know
+4	about
+5	cambodian
+6	restaurant
+7	.
+
+1	do
+2	you
+3	know
+4	about
+5	cambodian
+6	restaurant
+7	.
+
+1	uh
+2	howbout
+3	cha
+4	-
+5	am
+6	restaurant
+7	.
+
+1	can
+2	you
+3	show
+4	me
+5	more
+6	indian
+7	restaurants
+8	.
+
+1	i
+2	want
+3	indian
+4	restaurant
+5	.
+
+1	howbout
+2	japanese
+3	restaurant
+4	.
+
+1	californian
+2	food
+3	.
+
+1	any
+2	day
+3	.
+
+1	uh
+2	i
+3	would
+4	like
+5	to
+6	eat
+7	lunch
+8	.
+
+1	i
+2	said
+3	ten
+4	dollars
+5	.
+
+1	i
+2	feel
+3	like
+4	an
+5	italian
+6	lunch
+7	today
+8	.
+
+1	five
+2	bucks
+3	will
+4	be
+5	okay
+6	.
+
+1	around
+2	five
+3	dollars
+4	preferably
+5	less
+6	.
+
+1	hopefully
+2	just
+3	a
+4	block
+5	or
+6	two
+7	.
+
+1	let
+2	's
+3	say
+4	a
+5	half
+6	a
+7	mile
+8	or
+9	less
+10	.
+
+1	i
+2	want
+3	just
+4	a
+5	snack
+6	today
+7	.
+
+1	i
+2	want
+3	a
+4	snack
+5	.
+
+1	i
+2	feel
+3	like
+4	a
+5	burrito
+6	today
+7	.
+
+1	i
+2	'm
+3	interested
+4	in
+5	dinner
+6	.
+
+1	i
+2	wan
+3	na
+4	spend
+5	five
+6	dollars
+7	or
+8	less
+9	.
+
+1	two
+2	blocks
+3	away
+4	or
+5	less
+6	.
+
+1	do
+2	you
+3	have
+4	the
+5	menu
+6	for
+7	taqueria
+8	de
+9	berkeley
+10	.
+
+1	can
+2	i
+3	see
+4	the
+5	menu
+6	for
+7	taqueria
+8	de
+9	berkeley
+10	.
+
+1	are
+2	there
+3	any
+4	other
+5	mexican
+6	restaurants
+7	.
+
+1	breakfast
+2	today
+3	.
+
+1	do
+2	you
+3	know
+4	any
+5	pizza
+6	places
+7	.
+
+1	breakfast
+2	god
+3	dammit
+4	.
+
+1	for
+2	breakfast
+3	.
+
+1	i
+2	'll
+3	pay
+4	two
+5	dollars
+6	per
+7	slice
+8	.
+
+1	two
+2	dollars
+3	per
+4	slice
+5	.
+
+1	has
+2	to
+3	be
+4	real
+5	close
+6	.
+
+1	does
+2	arinell
+3	pizza
+4	have
+5	sicilian
+6	.
+
+1	tell
+2	me
+3	about
+4	arinell
+5	pizza
+6	.
+
+1	howbout
+2	a
+3	fancy
+4	dinner
+5	.
+
+1	i
+2	'd
+3	like
+4	a
+5	fancy
+6	dinner
+7	.
+
+1	american
+2	food
+3	would
+4	be
+5	nice
+6	.
+
+1	friday
+2	or
+3	saturday
+4	night
+5	.
+
+1	friday
+2	or
+3	saturday
+4	evening
+5	.
+
+1	i
+2	have
+3	a
+4	car
+5	so
+6	i
+7	can
+8	travel
+9	up
+10	to
+11	ten
+12	miles
+13	.
+
+1	what
+2	's
+3	soul
+4	brother
+5	's
+6	kitchen
+7	.
+
+1	that
+2	's
+3	too
+4	expensive
+5	.
+
+1	howbout
+2	spenger's
+3	.
+
+1	howbout
+2	chinese
+3	instead
+4	.
+
+1	tell
+2	me
+3	more
+4	.
+
+1	tell
+2	me
+3	more
+4	about
+5	hong
+6	-
+7	kong
+8	east
+9	ocean
+10	.
+
+1	what
+2	good
+3	breakfast
+4	places
+5	are
+6	there
+7	.
+
+1	no
+2	barbecue
+3	i
+4	want
+5	indian
+6	food
+7	.
+
+1	i
+2	want
+3	fast
+4	food
+5	for
+6	lunch
+7	today
+8	.
+
+1	indian
+2	fast
+3	food
+4	five
+5	dollars
+6	or
+7	less
+8	.
+
+1	just
+2	a
+3	few
+4	bucks
+5	.
+
+1	um
+2	i
+3	i
+4	wan
+5	na
+6	go
+7	for
+8	lunch
+9	and
+10	it
+11	's
+12	monday
+13	and
+14	the
+15	cost
+16	does
+17	n't
+18	matter
+19	.
+
+1	give
+2	me
+3	some
+4	more
+5	information
+6	about
+7	jupiter
+8	.
+
+1	tell
+2	me
+3	more
+4	about
+5	arinell
+6	pizza
+7	.
+
+1	okay
+2	start
+3	over
+4	and
+5	look
+6	for
+7	thai
+8	food
+9	.
+
+1	look
+2	for
+3	thai
+4	food
+5	restaurants
+6	.
+
+1	do
+2	they
+3	serve
+4	breakfast
+5	.
+
+1	i
+2	wan
+3	na
+4	go
+5	for
+6	dinner
+7	.
+
+1	uh
+2	price
+3	should
+4	be
+5	about
+6	twelve
+7	dollars
+8	.
+
+1	uh
+2	price
+3	should
+4	be
+5	about
+6	twelve
+7	dollars
+8	.
+
+1	uh
+2	up
+3	to
+4	five
+5	miles
+6	.
+
+1	tell
+2	me
+3	more
+4	about
+5	the
+6	berkeley
+7	thai
+8	house
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	no
+2	i
+3	wan
+4	na
+5	have
+6	dinner
+7	not
+8	breakfast
+9	.
+
+1	i
+2	want
+3	to
+4	have
+5	dinner
+6	.
+
+1	i
+2	want
+3	to
+4	go
+5	for
+6	dinner
+7	.
+
+1	give
+2	me
+3	more
+4	information
+5	about
+6	won
+7	thai
+8	cuisine
+9	.
+
+1	do
+2	you
+3	know
+4	any
+5	mcdonald
+6	's
+7	restaurant
+8	.
+
+1	no
+2	i
+3	wan
+4	na
+5	eat
+6	hamburger
+7	.
+
+1	uh
+2	should
+3	n't
+4	cost
+5	more
+6	than
+7	five
+8	dollars
+9	.
+
+1	not
+2	more
+3	than
+4	five
+5	dollar
+6	.
+
+1	i
+2	do
+3	n't
+4	wan
+5	na
+6	pay
+7	more
+8	than
+9	five
+10	bucks
+11	.
+
+1	uh
+2	for
+3	lunch
+4	.
+
+1	i
+2	do
+3	n't
+4	wan
+5	na
+6	pay
+7	more
+8	than
+9	five
+10	bucks
+11	.
+
+1	sunday
+2	and
+3	for
+4	dinner
+5	.
+
+1	hey
+2	what
+3	's
+4	bongo
+5	burger
+6	.
+
+1	do
+2	you
+3	know
+4	any
+5	sandwich
+6	restaurants
+7	.
+
+1	tell
+2	me
+3	something
+4	about
+5	la
+6	tour
+7	eiffel
+8	.
+
+1	what
+2	what
+3	is
+4	la
+5	tour
+6	eiffel
+7	.
+
+1	what
+2	what
+3	is
+4	la
+5	tour
+6	eiffel
+7	.
+
+1	i
+2	wan
+3	na
+4	eat
+5	sushi
+6	.
+
+1	tell
+2	me
+3	something
+4	nearby
+5	and
+6	cheap
+7	.
+
+1	i
+2	wan
+3	na
+4	eat
+5	on
+6	wednesday
+7	.
+
+1	for
+2	lunch
+3	and
+4	let
+5	's
+6	say
+7	two
+8	blocks
+9	away
+10	from
+11	the
+12	icsi
+13	.
+
+1	okay
+2	cost
+3	does
+4	n't
+5	matter
+6	.
+
+1	what
+2	is
+3	sushi
+4	-
+5	ko
+6	.
+
+1	okay
+2	i
+3	wan
+4	na
+5	have
+6	some
+7	american
+8	breakfast
+9	on
+10	saturday
+11	morning
+12	.
+
+1	cost
+2	does
+3	n't
+4	matter
+5	and
+6	distance
+7	does
+8	n't
+9	matter
+10	either
+11	.
+
+1	cost
+2	does
+3	n't
+4	matter
+5	.
+
+1	um
+2	okay
+3	let
+4	's
+5	say
+6	seven
+7	bucks
+8	.
+
+1	where
+2	is
+3	mel
+4	's
+5	diner
+6	.
+
+1	tell
+2	me
+3	more
+4	about
+5	the
+6	continental
+7	garden
+8	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	indian
+8	food
+9	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	at
+7	a
+8	restaurant
+9	close
+10	to
+11	icksee
+12	.
+
+1	i
+2	need
+3	to
+4	eat
+5	now
+6	.
+
+1	somewhere
+2	cheap
+3	would
+4	be
+5	good
+6	.
+
+1	i
+2	want
+3	cheap
+4	meal
+5	.
+
+1	give
+2	me
+3	some
+4	more
+5	information
+6	on
+7	sujatha's
+8	.
+
+1	how
+2	about
+3	some
+4	italian
+5	food
+6	.
+
+1	i
+2	want
+3	an
+4	expensive
+5	meal
+6	.
+
+1	i
+2	'm
+3	going
+4	out
+5	for
+6	food
+7	on
+8	saturday
+9	lunch
+10	time
+11	.
+
+1	i
+2	will
+3	be
+4	looking
+5	for
+6	food
+7	on
+8	saturday
+9	.
+
+1	the
+2	restaurant
+3	can
+4	be
+5	any
+6	distance
+7	from
+8	icksee
+9	.
+
+1	it
+2	does
+3	n't
+4	matter
+5	if
+6	the
+7	restaurant
+8	is
+9	a
+10	long
+11	way
+12	from
+13	icksee
+14	.
+
+1	i
+2	can
+3	go
+4	up
+5	to
+6	two
+7	miles
+8	from
+9	icksee
+10	.
+
+1	a
+2	cheap
+3	pizza
+4	will
+5	do
+6	fine
+7	.
+
+1	tell
+2	me
+3	about
+4	blondie
+5	's
+6	.
+
+1	vegetarian
+2	food
+3	.
+
+1	what
+2	about
+3	some
+4	vegetarian
+5	food
+6	.
+
+1	i
+2	will
+3	be
+4	eating
+5	tonight
+6	.
+
+1	the
+2	restaurant
+3	must
+4	be
+5	close
+6	to
+7	icksee
+8	.
+
+1	where
+2	is
+3	a
+4	good
+5	place
+6	for
+7	chinese
+8	food
+9	.
+
+1	where
+2	is
+3	a
+4	good
+5	place
+6	for
+7	chinese
+8	food
+9	.
+
+1	if
+2	it
+3	's
+4	chinese
+5	for
+6	breakfast
+7	it
+8	can
+9	be
+10	cheap
+11	.
+
+1	if
+2	it
+3	's
+4	no
+5	chinese
+6	it
+7	will
+8	have
+9	to
+10	be
+11	american
+12	.
+
+1	tell
+2	me
+3	about
+4	lox
+5	stock
+6	and
+7	bagel
+8	.
+
+1	i
+2	want
+3	to
+4	know
+5	about
+6	lox
+7	stock
+8	and
+9	bagel
+10	.
+
+1	tell
+2	me
+3	about
+4	cactus
+5	.
+
+1	now
+2	i
+3	'm
+4	interested
+5	in
+6	mexican
+7	food
+8	.
+
+1	now
+2	i
+3	'm
+4	interested
+5	in
+6	mexican
+7	food
+8	.
+
+1	the
+2	day
+3	i
+4	want
+5	to
+6	eat
+7	is
+8	wednesday
+9	.
+
+1	not
+2	breakfast
+3	lunch
+4	time
+5	.
+
+1	no
+2	it
+3	's
+4	mexican
+5	food
+6	burritos
+7	for
+8	lunch
+9	.
+
+1	i
+2	want
+3	to
+4	eat
+5	at
+6	one
+7	p__m
+8	.
+
+1	okay
+2	what
+3	about
+4	thai
+5	food
+6	.
+
+1	i
+2	want
+3	to
+4	go
+5	out
+6	for
+7	dinner
+8	.
+
+1	mid
+2	priced
+3	thai
+4	food
+5	is
+6	what
+7	i
+8	'm
+9	looking
+10	for
+11	.
+
+1	mid
+2	priced
+3	food
+4	.
+
+1	mid
+2	priced
+3	food
+4	.
+
+1	not
+2	expensive
+3	and
+4	not
+5	cheap
+6	.
+
+1	no
+2	japanese
+3	like
+4	sushi
+5	.
+
+1	japanese
+2	sushi
+3	.
+
+1	i
+2	'd
+3	like
+4	some
+5	indian
+6	food
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	today
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	dinner
+7	.
+
+1	no
+2	more
+3	than
+4	fifteen
+5	dollars
+6	.
+
+1	no
+2	more
+3	than
+4	five
+5	miles
+6	.
+
+1	does
+2	pasand
+3	restaurant
+4	have
+5	any
+6	live
+7	music
+8	there
+9	.
+
+1	sorry
+2	i
+3	meant
+4	if
+5	pasand
+6	has
+7	live
+8	music
+9	.
+
+1	will
+2	i
+3	get
+4	food
+5	poisoning
+6	if
+7	i
+8	eat
+9	at
+10	pasand
+11	.
+
+1	i
+2	'd
+3	like
+4	some
+5	italian
+6	food
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	on
+7	wednesday
+8	.
+
+1	i
+2	'm
+3	sorry
+4	i
+5	said
+6	that
+7	i
+8	would
+9	like
+10	to
+11	eat
+12	on
+13	wednesday
+14	.
+
+1	i
+2	'm
+3	sorry
+4	i
+5	said
+6	that
+7	i
+8	would
+9	like
+10	to
+11	eat
+12	on
+13	wednesday
+14	.
+
+1	i
+2	want
+3	lunch
+4	.
+
+1	no
+2	more
+3	than
+4	six
+5	dollars
+6	.
+
+1	how
+2	much
+3	seating
+4	does
+5	spats
+6	have
+7	.
+
+1	do
+2	i
+3	need
+4	to
+5	make
+6	a
+7	reservation
+8	.
+
+1	how
+2	about
+3	lasagna
+4	.
+
+1	i
+2	said
+3	that
+4	i
+5	would
+6	like
+7	lasagna
+8	.
+
+1	what
+2	is
+3	the
+4	cross
+5	street
+6	for
+7	spats
+8	.
+
+1	i
+2	would
+3	like
+4	ethiopian
+5	food
+6	.
+
+1	on
+2	tuesday
+3	.
+
+1	ten
+2	dollars
+3	.
+
+1	no
+2	more
+3	than
+4	three
+5	miles
+6	.
+
+1	so
+2	the
+3	minimum
+4	cost
+5	for
+6	blue
+7	nile
+8	is
+9	twenty
+10	dollars
+11	.
+
+1	do
+2	they
+3	server
+4	liquor
+5	at
+6	blue
+7	nile
+8	.
+
+1	i
+2	would
+3	like
+4	chinese
+5	food
+6	.
+
+1	today
+2	please
+3	.
+
+1	lunch
+2	.
+
+1	eight
+2	dollars
+3	.
+
+1	how
+2	about
+3	seven
+4	dollars
+5	.
+
+1	four
+2	miles
+3	please
+4	.
+
+1	four
+2	miles
+3	please
+4	.
+
+1	i
+2	said
+3	i
+4	'd
+5	like
+6	to
+7	go
+8	six
+9	miles
+10	.
+
+1	i
+2	asked
+3	for
+4	chinese
+5	food
+6	.
+
+1	does
+2	lantern
+3	allow
+4	smoking
+5	.
+
+1	can
+2	i
+3	smoke
+4	at
+5	lantern
+6	.
+
+1	i
+2	want
+3	american
+4	food
+5	.
+
+1	saturday
+2	.
+
+1	lunch
+2	.
+
+1	twenty
+2	dollars
+3	.
+
+1	what
+2	kind
+3	of
+4	food
+5	does
+6	grace
+7	cafe
+8	have
+9	.
+
+1	do
+2	they
+3	have
+4	hamburgers
+5	.
+
+1	hamburgers
+2	.
+
+1	french
+2	fries
+3	.
+
+1	how
+2	much
+3	is
+4	metropole
+5	.
+
+1	how
+2	much
+3	is
+4	metropole
+5	.
+
+1	i
+2	want
+3	japanese
+4	food
+5	.
+
+1	i
+2	want
+3	japanese
+4	food
+5	.
+
+1	how
+2	much
+3	is
+4	the
+5	food
+6	at
+7	yoshi's
+8	.
+
+1	can
+2	i
+3	take
+4	a
+5	bus
+6	to
+7	yoshi's
+8	.
+
+1	i
+2	'd
+3	like
+4	some
+5	vietnamese
+6	food
+7	.
+
+1	i
+2	want
+3	to
+4	go
+5	no
+6	more
+7	than
+8	ten
+9	miles
+10	.
+
+1	no
+2	i
+3	said
+4	i
+5	want
+6	to
+7	go
+8	no
+9	more
+10	than
+11	ten
+12	miles
+13	.
+
+1	breakfast
+2	.
+
+1	six
+2	dollars
+3	.
+
+1	how
+2	about
+3	nine
+4	dollars
+5	.
+
+1	what
+2	about
+3	lunch
+4	.
+
+1	le
+2	cheval
+3	.
+
+1	show
+2	me
+3	the
+4	price
+5	for
+6	le
+7	cheval
+8	.
+
+1	give
+2	me
+3	additional
+4	information
+5	on
+6	le
+7	cheval
+8	.
+
+1	yeah
+2	i
+3	'd
+4	like
+5	to
+6	eat
+7	german
+8	food
+9	and
+10	i
+11	do
+12	n't
+13	wan
+14	na
+15	spend
+16	more
+17	money
+18	than
+19	twenty
+20	dollars
+21	.
+
+1	uh
+2	i
+3	said
+4	i
+5	do
+6	n't
+7	wan
+8	na
+9	spend
+10	more
+11	than
+12	twenty
+13	dollars
+14	.
+
+1	i
+2	said
+3	twenty
+4	dollars
+5	.
+
+1	i
+2	want
+3	to
+4	have
+5	dinner
+6	tomorrow
+7	and
+8	i
+9	do
+10	n't
+11	want
+12	to
+13	spend
+14	more
+15	than
+16	thirty
+17	dollars
+18	.
+
+1	i
+2	want
+3	to
+4	eat
+5	dinner
+6	.
+
+1	i
+2	want
+3	to
+4	have
+5	dinner
+6	in
+7	a
+8	german
+9	restaurant
+10	tomorrow
+11	.
+
+1	i
+2	said
+3	german
+4	tomorrow
+5	.
+
+1	i
+2	wan
+3	na
+4	spend
+5	thirty
+6	dollars
+7	in
+8	a
+9	german
+10	restaurant
+11	.
+
+1	i
+2	'm
+3	willing
+4	to
+5	travel
+6	twenty
+7	minutes
+8	from
+9	icsi
+10	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	cheap
+7	german
+8	food
+9	tomorrow
+10	.
+
+1	i
+2	'd
+3	like
+4	to
+5	have
+6	lunch
+7	.
+
+1	i
+2	'm
+3	willing
+4	to
+5	travel
+6	one
+7	hour
+8	from
+9	icsi
+10	.
+
+1	i
+2	want
+3	to
+4	have
+5	lunch
+6	in
+7	a
+8	french
+9	restaurant
+10	tomorrow
+11	for
+12	sixty
+13	dollars
+14	.
+
+1	i
+2	wan
+3	na
+4	travel
+5	at
+6	least
+7	one
+8	hour
+9	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	travel
+7	far
+8	away
+9	.
+
+1	i
+2	wan
+3	na
+4	eat
+5	polish
+6	food
+7	at
+8	friday
+9	.
+
+1	russian
+2	food
+3	.
+
+1	i
+2	want
+3	to
+4	spend
+5	very
+6	much
+7	money
+8	.
+
+1	sixty
+2	five
+3	dollars
+4	.
+
+1	i
+2	want
+3	to
+4	eat
+5	pizza
+6	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	dinner
+7	yesterday
+8	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	on
+7	saturday
+8	for
+9	about
+10	seventy
+11	five
+12	dollars
+13	.
+
+1	forty
+2	dollars
+3	.
+
+1	i
+2	do
+3	n't
+4	care
+5	.
+
+1	tell
+2	me
+3	more
+4	about
+5	nino's
+6	.
+
+1	tell
+2	me
+3	more
+4	about
+5	arinell
+6	pizza
+7	.
+
+1	tell
+2	me
+3	more
+4	about
+5	nino's
+6	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	on
+7	sunday
+8	night
+9	.
+
+1	i
+2	'd
+3	like
+4	to
+5	spend
+6	about
+7	ten
+8	dollars
+9	.
+
+1	about
+2	twenty
+3	minutes
+4	on
+5	foot
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	travel
+6	twenty
+7	minutes
+8	on
+9	foot
+10	.
+
+1	about
+2	two
+3	or
+4	three
+5	miles
+6	.
+
+1	about
+2	two
+3	or
+4	three
+5	miles
+6	only
+7	.
+
+1	where
+2	is
+3	sujatha's
+4	.
+
+1	no
+2	i
+3	want
+4	to
+5	know
+6	about
+7	indian
+8	restaurants
+9	.
+
+1	i
+2	want
+3	to
+4	go
+5	to
+6	an
+7	indian
+8	restaurant
+9	.
+
+1	indian
+2	.
+
+1	indian
+2	restaurant
+3	.
+
+1	please
+2	tell
+3	me
+4	about
+5	indian
+6	restaurants
+7	.
+
+1	which
+2	restaurants
+3	are
+4	open
+5	late
+6	.
+
+1	where
+2	is
+3	the
+4	closest
+5	greek
+6	restaurant
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	today
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	lunch
+7	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	a
+7	gyro
+8	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	a
+7	cheap
+8	lunch
+9	close
+10	by
+11	.
+
+1	i
+2	'd
+3	like
+4	to
+5	eat
+6	a
+7	cheap
+8	lunch
+9	close
+10	by
+11	.
+
+1	not
+2	more
+3	than
+4	one
+5	mile
+6	.
+
+1	not
+2	more
+3	than
+4	one
+5	mile
+6	.
+
+1	where
+2	can
+3	i
+4	find
+5	steak
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	a
+7	cheap
+8	dinner
+9	today
+10	.
+
+1	a
+2	cheap
+3	dinner
+4	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	a
+7	cheap
+8	dinner
+9	.
+
+1	i
+2	would
+3	like
+4	dinner
+5	.
+
+1	not
+2	more
+3	than
+4	three
+5	miles
+6	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	thai
+7	restaurant
+8	that
+9	is
+10	not
+11	too
+12	expensive
+13	and
+14	is
+15	on
+16	south
+17	side
+18	.
+
+1	um
+2	for
+3	dinner
+4	on
+5	the
+6	weekends
+7	that
+8	does
+9	n't
+10	require
+11	reservations
+12	.
+
+1	i
+2	'd
+3	like
+4	some
+5	information
+6	on
+7	cha
+8	-
+9	am
+10	thai
+11	restaurant
+12	.
+
+1	i
+2	'd
+3	like
+4	some
+5	information
+6	on
+7	cha
+8	-
+9	am
+10	thai
+11	restaurant
+12	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	restaurant
+7	for
+8	my
+9	parents
+10	when
+11	they
+12	come
+13	into
+14	town
+15	um
+16	italian
+17	food
+18	um
+19	dressy
+20	casual
+21	.
+
+1	would
+2	be
+3	for
+4	dinner
+5	on
+6	a
+7	friday
+8	or
+9	saturday
+10	evening
+11	.
+
+1	um
+2	my
+3	parents
+4	would
+5	be
+6	willing
+7	to
+8	spend
+9	fifteen
+10	to
+11	twenty
+12	five
+13	dollars
+14	on
+15	entrees
+16	um
+17	.
+
+1	tell
+2	me
+3	more
+4	information
+5	on
+6	ristorante
+7	venezia
+8	.
+
+1	start
+2	over
+3	show
+4	me
+5	the
+6	list
+7	.
+
+1	tell
+2	me
+3	about
+4	the
+5	musical
+6	offering
+7	cafe
+8	.
+
+1	tell
+2	me
+3	about
+4	cafe
+5	milano
+6	.
+
+1	tell
+2	me
+3	about
+4	cafe
+5	milano
+6	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	greek
+7	restaurant
+8	um
+9	casual
+10	for
+11	the
+12	weekends
+13	evening
+14	um
+15	that
+16	's
+17	between
+18	the
+19	.
+
+1	i
+2	do
+3	n't
+4	want
+5	to
+6	travel
+7	any
+8	further
+9	than
+10	ten
+11	minutes
+12	from
+13	icsi
+14	.
+
+1	tell
+2	me
+3	more
+4	information
+5	about
+6	vasiliki
+7	.
+
+1	do
+2	you
+3	need
+4	reservations
+5	for
+6	this
+7	restaurant
+8	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	a
+6	fun
+7	um
+8	mostly
+9	college
+10	crowd
+11	mexican
+12	food
+13	restaurant
+14	that
+15	's
+16	cheap
+17	.
+
+1	it
+2	would
+3	be
+4	for
+5	the
+6	weekends
+7	um
+8	i
+9	would
+10	prefer
+11	it
+12	to
+13	be
+14	no
+15	more
+16	that
+17	ten
+18	minutes
+19	away
+20	from
+21	icsi
+22	.
+
+1	tell
+2	me
+3	more
+4	about
+5	manuel's
+6	.
+
+1	i
+2	'm
+3	looking
+4	for
+5	oh
+6	you
+7	do
+8	n't
+9	have
+10	anything
+11	about
+12	locations
+13	like
+14	hearst
+15	avenue
+16	finished
+17	.
+
+1	hello
+2	i
+3	'm
+4	jeff
+5	and
+6	i
+7	wan
+8	na
+9	go
+10	for
+11	dinner
+12	.
+
+1	i
+2	would
+3	like
+4	to
+5	eat
+6	some
+7	mexican
+8	food
+9	.
+
+1	i
+2	'm
+3	very
+4	cheap
+5	i
+6	do
+7	n't
+8	want
+9	to
+10	spend
+11	very
+12	much
+13	money
+14	maybe
+15	five
+16	dollars
+17	.
+
+1	i
+2	own
+3	a
+4	bike
+5	and
+6	i
+7	'm
+8	willing
+9	to
+10	bike
+11	for
+12	about
+13	ten
+14	minutes
+15	.
+
+1	i
+2	want
+3	mexican
+4	food
+5	for
+6	lunch
+7	.
+
+1	about
+2	five
+3	dollars
+4	.
+
+1	i
+2	want
+3	to
+4	bike
+5	for
+6	five
+7	minutes
+8	.
+
+1	i
+2	'm
+3	hungry
+4	is
+5	there
+6	a
+7	good
+8	place
+9	to
+10	eat
+11	.
+
+1	i
+2	want
+3	to
+4	eat
+5	on
+6	friday
+7	.
+
+1	i
+2	want
+3	to
+4	eat
+5	on
+6	friday
+7	.
+
+1	breakfast
+2	but
+3	i
+4	do
+5	n't
+6	want
+7	hungarian
+8	food
+9	i
+10	want
+11	eggs
+12	.
+
+1	five
+2	dollars
+3	.
+
+1	five
+2	minutes
+3	walk
+4	.
+
+1	i
+2	would
+3	like
+4	to
+5	walk
+6	for
+7	five
+8	minutes
+9	.
+
+1	which
+2	ones
+3	have
+4	eggs
+5	.
+

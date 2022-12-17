@@ -1,6 +1,0 @@
-{
-  "files.associations": {
-    "*.js": "javascript",
-    "winsock2.h": "c"
-  }
-}
