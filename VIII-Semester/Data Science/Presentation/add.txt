@@ -1,0 +1,8 @@
+add the code folder here
+
+PPT
+https://docs.google.com/presentation/d/1JHF9XSIBjr5ze97uyOo6he1iBXf2q3zxbBCxHck0mQs/edit#slide=id.p
+
+https://longjp.github.io/statcomp/projects/clusteringimdb.pdf
+
+https://github.com/mustafashabbir10/MovieClustering
